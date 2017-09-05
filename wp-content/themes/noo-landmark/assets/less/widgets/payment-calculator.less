@@ -1,0 +1,99 @@
+/**
+ * Style widget: Noo - Payment Calculator
+ */
+.noo-mortgage-paymant-calculator {
+    form {
+        label {
+            display: block;
+            font-weight: @font-weight-medium;
+        }
+        .noo-item-wrap,
+        .rp-item-wrap{
+            margin-bottom: 30px;
+            position: relative;
+            input {
+                padding-left: 50px;
+            }
+            .field-icon {
+                position: absolute;
+                left: 0;
+                top: 1px;
+                line-height: 38px;
+                width: 40px;
+                text-align: center;
+                border-right: 1px solid @border-color;
+                i {
+                    font-size: 14px;
+                }
+            }
+        }
+        .noo-button {
+            width: 100%;
+            text-align: center;
+        }     
+    }
+    .pament_result {
+        display: none;
+        h5 {
+            font-size: 16px;
+        }
+    }
+    .ui-slider {
+        height: 4px;
+        background-color: @border-color;
+        position: relative;
+        margin-top: 10px;
+        margin-left: 0.9em;
+        border: none;
+        &:hover {
+            cursor: pointer;
+        }
+        .ui-widget-header {
+            height: 100%;
+            background-color: @secondary-color;
+            margin-left: -0.9em;
+        }
+        .ui-slider-handle {
+            position: absolute;
+            top: -0.3em;
+            margin-left: -0.9em;
+            z-index: 1;
+            width: 0.9em;
+            height: 0.9em;
+            cursor: default;
+            background-color: @secondary-color;
+            &:hover, 
+            &:focus,
+            &:active {
+                cursor: pointer;
+                outline: none;
+            }
+        }
+    }
+    .spinner {
+        margin: 0 auto;
+        width: 40px;
+        text-align: center;
+        display: inline-block;
+        > div {
+            width: 10px;
+            height: 10px;
+            background-color: @secondary-color;
+
+            border-radius: 100%;
+            display: inline-block;
+            -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+            animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+        }
+
+        .bounce1 {
+            -webkit-animation-delay: -0.32s;
+            animation-delay: -0.32s;
+        }
+
+        .bounce2 {
+            -webkit-animation-delay: -0.16s;
+            animation-delay: -0.16s;
+        }
+    }
+}

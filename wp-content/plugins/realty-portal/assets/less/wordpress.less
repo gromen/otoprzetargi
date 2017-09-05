@@ -1,0 +1,138 @@
+.rp-button {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.notice {
+    a {
+	color: @secondary-color;
+	&:hover {
+	    text-decoration: underline;
+	}
+    }
+}
+
+.rp-button,
+.rp-submit {
+    position: relative;
+    > i {
+	position: absolute;
+	top: 12px;
+	right: 0 !important;
+	left: auto !important;
+	width: 35px;
+	&.success {
+	    &:before {
+		content: '\f00c';
+		color: #79F181;
+	    }
+	}
+    }
+}
+
+form {
+    .rp-button,
+    .rp-submit {
+	padding: 15px 45px;
+    }
+}
+
+.rp-readmore {
+    display: inline-block;
+    clear: both;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 5px;
+    .transition(all 0.4s ease 0s);
+    &:after {
+	content: "\f3d3";
+	font-family: "rpicons";
+	margin-left: 10px;
+	font-weight: bold;
+    }
+}
+
+.rp-found {
+    background: #fff;
+    font-size: 13px;
+    padding: 8px 15px;
+    line-height: 24px;
+    border: 1px solid @border-color;
+}
+
+.rp-notice {
+    font-size: 13px;
+    padding: 8px 15px;
+    line-height: 24px;
+    color: #fff;
+    display: none;
+    &.error {
+	background: #ec8888;
+	border: 1px solid #ec8888;
+    }
+    &.success {
+	background: #6DF27D;
+	border: 1px solid #6DF27D;
+    }
+}
+
+#package_order_id_field,
+#package_recurring_payment_field,
+#package_agent_id_field,
+#package_id_field,
+#submisson_agent_id_field,
+#submisson_prop_id_field,
+#submisson_order_id_field,
+#submisson_payment_type_field {
+    display: none;
+}
+
+.wp-editor-container {
+    border: 1px solid @border-color;
+}
+
+span.help {
+    color: #999;
+    font-size: 90%;
+}
+
+.form-error {
+    display: block;
+    color: #b94a48;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 140%;
+}
+
+.rp-select {
+    padding: 10px;
+    width: 100%;
+}
+
+.vc_column_container {
+    > .vc_column-inner {
+	.rp-shortcode {
+	    ul {
+		margin-left: -15px;
+		margin-right: -15px;
+	    }
+	}
+    }
+}
+
+.admin-bar {
+    .compare-panel {
+	top: 30px;
+    }
+}
+
+.visible-xs {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .hidden-xs {
+	display: none !important;
+    }
+}

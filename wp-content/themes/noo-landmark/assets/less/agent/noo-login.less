@@ -1,0 +1,129 @@
+/**
+ * Style box login
+ */
+.noo-box-login,
+.rp-box-popup {
+    background: #fff;
+    display: none;
+    .title,
+    .rp-label {
+	border-bottom: 1px solid #e5e5f8;
+	background: #e4e2e2;
+	font-size: 24px;
+	line-height: 24px;
+	padding: 20px;
+	margin: 0;
+    }
+    .close {
+	float: right;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1;
+	position: absolute;
+	top: 32px;
+	right: 25px;
+	filter: alpha(opacity=20);
+	opacity: .2;
+	&:focus, &:hover {
+	    color: #000;
+	    text-decoration: none;
+	    cursor: pointer;
+	    filter: alpha(opacity=50);
+	    opacity: .5
+	}
+    }
+
+    button.close {
+	-webkit-appearance: none;
+	padding: 0;
+	cursor: pointer;
+	background: 0 0;
+	border: 0
+    }
+    .noo-login-member-container,
+    .rp-form-login,
+    .noo-register-member-container,
+    .rp-form-register {
+	display: table;
+	padding: 30px 30px 10px;
+	.notice {
+	    display: none;
+	}
+    }
+    form {
+	border: none;
+	padding: 0 30px 50px;
+	width: 680px;
+	.noo-register-member-action,
+	.rp-register-member-action {
+	    clear: both;
+	    width: 100%;
+	    text-align: center;
+	    .noo-button,
+	    .rp-button {
+		padding: 12px 60px;
+	    }
+	    > p {
+		padding: 15px 0;
+		a {
+		    color: @secondary-color;
+		    .transition;
+		    &:hover {
+			text-decoration: underline;
+		    }
+		}
+	    }
+	}
+	.noo-login-member-action,
+	.rp-login-member-action {
+	    text-align: center;
+	    width: 100%;
+	    > p {
+		padding: 15px 0;
+		a {
+		    color: @secondary-color;
+		    .transition;
+		    &:hover {
+			text-decoration: underline;
+		    }
+		}
+	    }
+	    .noo-button,
+	    .rp-button {
+		padding: 12px 72px;
+		> i {
+		    top: 17px;
+		    right: 10px !important;
+		}
+	    }
+	}
+	.notice {
+	    padding: 30px 0 5px;
+	}
+	.noo-item-wrap,
+	.rp-item-wrap {
+	    .noo-item-checkbox {
+		text-align: left;
+	    }
+	    .chosen-container {
+		text-align: left;
+	    }
+	}
+    }
+    .wp-social-login-widget {
+	text-align: center;
+    }
+    .rp-box-extend {
+	text-align: center;
+	margin: 6px 15px 15px;
+    }
+}
+
+.noo-box-register-login {
+    .noo-login-member-container {
+	.wp-social-login-widget {
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+    }
+}

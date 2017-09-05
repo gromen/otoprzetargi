@@ -1,0 +1,129 @@
+
+/*
+* 4.0 Content
+* -----------------------------------------------------------------------------
+*/
+
+/*
+* 4.1 - Heading
+* -----------------------------------------------------------------------------
+*/
+.noo-page-heading{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 72%;
+  padding-top: 85px;
+  padding-bottom: 70px;
+  position: relative;
+
+  &:before {
+  	background-color: @black;
+  	.opacity(.2);
+  	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	content: '';
+  	top: 0;
+  	left: 0;
+  }
+
+  .page-title{
+    padding: 0;
+    color: @secondary-color;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: @font-weight-semibold;
+    font-size: 32px;
+  }
+
+  .wrap-page-title {
+    background-color: @brand-primary;
+    display: inline-block;
+    padding: 20px 40px;
+    position: relative;
+  }
+
+  .noo-page-breadcrumb {
+    margin-top: 6px;
+    color: @white;
+    font-weight: @font-weight-medium;
+
+    a {
+        color: @white;
+	}
+
+	i {
+	  padding: 0 12px;
+      display: inline;
+      width: auto;
+      height: auto;
+      line-height: 1.75;
+      margin-left: 0;
+      vertical-align: baseline;
+	}
+
+	ul {
+	  padding: 0;
+	  margin: 0;
+	  list-style: none;
+
+	  li {
+	    display: inline-block;
+	    padding-right: 15px;
+    	margin-right: 10px;
+	    position: relative;
+
+	    &:after {
+          content: '';
+          content: "\f3d1";
+          font-family: "Ionicons";
+          position: absolute;
+          right: 0;
+          top: 0;
+
+	    }
+
+	    &:last-child {
+	      padding-right: 0;
+	      margin-right: 0;
+	      
+	      &:after {
+	        display: none;
+	      }
+	    }
+	  }
+	}
+
+  }
+
+}
+
+
+/**
+ * 4.2 - Box layout
+ * -----------------------------------------------------------------------------
+ */
+.boxed-layout {
+  background-color: @body-bg;
+  background-image: url("@{body-bg-image}");
+  background-position: @body-bg-align;
+  background-repeat: @body-bg-repeat;
+  background-attachment: @body-bg-attachment;
+  .background-cover( @body-bg-cover );
+  .site {
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    background-color: @white;
+    .box-shadow( @site-box-shadow );
+    width: @site-width;
+    max-width: unit( @site-max-width, px );
+    .fixed_top{
+      .navbar-wrapper{
+        max-width: unit( @site-max-width, px );
+        margin: 0 auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+/**
+ * Style widget: Advanced Search Property
+ */
+.widget_noo_advanced_search_property {
+	.noo-advanced-search-property {
+		margin: 45px 0 0;
+	}
+	.noo-item-wrap,
+	.rp-item-wrap {
+		> label {
+		    margin: -10px 0 0;
+		}
+	}
+	.noo-button {
+		width: 100%;
+	}
+	.chosen-container-single {
+		.chosen-single {
+			&:hover {
+				border: 1px solid @secondary-color;
+				.transition;
+				div b:before {
+					background: @secondary-color;
+					border-left: 1px solid @secondary-color;
+					color: #fff;
+					.transition;
+				}
+			}
+		}
+	}
+}

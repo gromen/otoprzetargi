@@ -1,0 +1,32 @@
+/**
+ * Style widget: RP - Property Listing
+ */
+.widget_rp_property_listing {
+    .rp-property-listing-item {
+	margin-bottom: 20px;
+	.clearfix();
+	&:last-child {
+	    margin-bottom: 10px;
+	}
+    }
+    .rp-thumbnail {
+	float: left;
+	img {
+	    width: 70px;
+	}
+    }
+    .rp-content {
+	padding: 3px 0 3px 15px;
+	float: left;
+	width: ~"calc(100% - 70px)";
+	.property-status {
+	    font-size: 12px;
+	    font-weight: 500;
+	}
+	.item-title {
+	    font-size: 14px;
+	    line-height: 20px;
+	    font-weight: 500;
+	}
+    }
+}

@@ -1,0 +1,275 @@
+/*
+* 7.0 Responsive
+* -----------------------------------------------------------------------------
+*/
+
+/*
+* 7.1 Responsive - Medium devices
+* -----------------------------------------------------------------------------
+*/
+@media (max-width: @screen-sm-max) {
+  .off-canvas-enabled .site {
+    .opacity(0.5);
+  }
+  .noo-main-canvas{
+    .sub-menu{
+      list-style: none;
+    }
+  }
+  .noo-container{
+    position: relative;
+  }
+  button.noo_icon_menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background: @white;
+    color: @gray-dark;
+    font-size: 20px;
+    border: 0;
+    padding: 5px 10px;
+  }
+  .off-canvas {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+  .off-canvas body {
+    width: 100%;
+    overflow-x: hidden;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  .off-canvas body > * {
+    left: 0;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: -webkit-transform 500ms ease;
+    -moz-transition: -moz-transform 500ms ease;
+    -o-transition: -o-transform 500ms ease;
+    transition: transform 500ms ease;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .off-canvas #off-canvas-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    z-index: 1;
+    background: none;
+  }
+  .off-canvas #off-canvas-nav .noo-main-canvas {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0 !important;
+    width: 250px;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .off-canvas #off-canvas-nav .noo-main-canvas .nav-collapse {
+    background: none repeat scroll 0 0 @body-bg;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    &:first-child {
+      padding-top: 50px;
+    }
+    &:last-child {
+      padding-bottom: 100px;
+    }
+  }
+  .off-canvas #off-canvas-nav .noo-main-canvas .nav-collapse li{
+    float: none;
+    &.magic-line {
+      display: none;
+    }
+    &.active, 
+    &.current-menu-parent,
+    &.current-menu-item,
+    &.current-menu-ancestor {
+      > a {
+        color: @brand-primary;
+      }
+    }
+  }
+
+  .off-canvas #off-canvas-nav .noo-main-canvas .nav-collapse li.menu-item-has-children {
+    position: relative;
+
+    i {
+      width: 30px;
+      text-align: center;
+      position: absolute;
+      top: 0;
+      right: 10px;
+      display: block;
+      line-height: 30px;
+      cursor: pointer;
+      -webkit-transition: all 0.4s ease 0s;
+      -o-transition: all 0.4s ease 0s;
+      transition: all 0.4s ease 0s;
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+    }
+
+    &.active > i:before {
+      content: "\f106";
+    }
+  }
+
+  .off-canvas #off-canvas-nav .noo-main-canvas .nav-collapse li a{
+    color: @black;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+    padding: 5px 20px;
+    position: relative;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+    &:hover {
+      color: @brand-primary;
+    }
+  }
+
+  .off-canvas #off-canvas-nav .noo-main-canvas .nav-collapse li ul.sub-menu{
+    padding-left: 30px;
+    display: none;
+
+    a {
+      font-weight: 400;
+      margin: 0;
+    }
+
+    li.current-menu-item {
+      a {
+        color: @brand-primary;
+         &:before {
+            width: 5px;
+            height: 5px;
+            background-color: @brand-primary;
+            .border-radius(50%);
+            position: absolute;
+            top: 50%;
+            .translate(0, -50%);
+            content: '';
+            display: block;
+            left: 0;
+        }
+      }
+    }
+    li.noo_widget_area {
+      display: none;
+    }
+  }
+
+  .off-canvas-enabled body > * {
+    -webkit-transform: translateX(250px);
+    -moz-transform: translateX(250px);
+    -o-transform: translateX(250px);
+    transform: translateX(250px);
+  }
+  .off-canvas-enabled #noo-main-canvas {
+    display: block;
+  }
+  body .noo-main-canvas{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #000;
+    display: block;
+    padding: 0;
+  }
+  .noo-main-canvas i {
+    color: #000;
+    font-size: 14px;
+    line-height: 50px;
+  }
+  .nav-collapse{
+    height: 0;
+    overflow: hidden;
+  }
+  .navbar-default{
+    min-height: 74px !important;
+  }
+  .navbar-wrapper .navbar-default .navbar-brand,
+  .navbar-wrapper .navbar-default .header-meta a,
+  .navbar-wrapper .navbar-default .navbar-brand.navbar-brand,
+  .navbar-wrapper .navbar-default .header-meta a.navbar-brand,
+  .navbar-wrapper .navbar-default .noo-main-menu .navbar-nav > li > a,
+  .navbar-wrapper .navbar-default .noo-main-menu .navbar-nav > li > a.navbar-brand{
+    line-height: 74px !important;
+    margin-top: 0 !important;
+  }
+
+  .exit-cavas {
+    position: fixed;
+    top: 10px;
+    left: -40px !important;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-image: url("../images/remove.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    .scale(0);
+    z-index: 9;
+    .opacity(0.6);
+    .transition(all 0.4s ease 0s);
+
+    &:hover{
+        .opacity(1);
+        color: @black;
+        text-decoration: none;
+    }
+  }
+}
+
+
+/*
+* 7.2 Responsive - Small devices
+* -----------------------------------------------------------------------------
+*/
+@media (max-width: @screen-xs-max) {
+  .noo-header {
+    //background: #ffff00;
+  }
+  .noo-topbar {
+    display: none !important;
+  }
+}
+
+
+/*
+* 7.3 Responsive - Mobile devices
+* -----------------------------------------------------------------------------
+*/
+@media (max-width: @screen-xs) {
+
+
+}
+
+/*
+* 7.4 Responsive - Small Mobile devices
+* -----------------------------------------------------------------------------
+*/
+@media (max-width: @screen-mobile) {
+
+
+}

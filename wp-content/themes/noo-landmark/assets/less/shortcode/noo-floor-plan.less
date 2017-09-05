@@ -1,0 +1,138 @@
+/**
+ * Style shortcode: Floor Plan
+ */
+.noo-floor-plan {
+	margin: 30px 0;
+	.noo-floor-plan-header {
+		text-align: center;
+		max-width: 950px;
+		margin: 0 auto 60px;
+		.noo-title {
+			color: @brand-primary;
+			font-size: 32px;
+		    margin: 0 0 35px;
+		}
+		p {
+
+		}
+	}
+	.noo-floor-plan-skeleton {
+		.after_cler();
+	}
+	.noo-thumbnail {
+		float: left;
+		width: 50%;
+		img {
+			width: 100%;
+		}
+	}
+	.noo-content {
+		float: left;
+		width: 50%;
+		padding: 0 70px; 
+		.noo-tab {
+			margin: 0 0 25px;
+			> span {
+				display: inline-block;
+				color: #3a3f4c;
+				font-size: 16px;
+				font-family: @font-heading;
+				font-weight: 600;
+				text-transform: uppercase;
+				margin-right: 30px;
+				position: relative;
+				cursor: pointer;
+				.transition;
+				&:after {
+					content: '';
+					background: @secondary-color;
+					width: 100%;
+					height: 3px;
+				    position: absolute;
+				    bottom: -5px;
+				    left: 0;
+				    .scale(.4);
+				    .opacity(0);
+				    .transition;
+				}
+				&:hover,
+				&.active {
+					color: @secondary-color;
+					&:after {
+						.opacity(1);
+						.scale(1);
+					}
+				}
+			}
+		}
+		.noo-tab-content {
+
+		}
+	}
+	.box-features {
+		border-top: 1px solid @border-color;
+		padding: 20px 0;
+	    margin: 35px 0 10px;
+		> label {
+			color: #3a3f4c;
+			font-family: @font-heading;
+			font-size: 20px;
+			line-height: 26px;
+			font-weight: 500;
+		}
+		> ul {
+			list-style: none;
+			margin: 0;
+		    padding: 15px 0 0 23px;
+			li {
+				color: #3a3f4c;
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 32px;
+				padding: 0;
+				position: relative;
+				text-transform: uppercase;
+				.transition;
+				&:before {
+					position: absolute;
+				    margin-left: -22px;
+				    display: inline-block;
+					content: '\f178';
+					font-family: 'FontAwesome';
+				}
+				&:hover {
+					color: @secondary-color;
+				}
+			}
+		}
+	}
+	.content-tab {
+		display: none;
+	    padding-top: 15px;
+		&.show {
+			display: block;
+		}
+	}
+	@media (max-width: 767px) {
+		margin: 0;
+		.noo-thumbnail,
+		.noo-content {
+		    float: none;
+		    width: 100%;
+		}
+		.noo-content {
+		    padding: 5px 15px 30px;
+		    .noo-tab-content {
+				border-top: 1px solid @border-color;
+				padding: 10px 0 0;
+		    }
+		    .noo-tab {
+	    	    margin: 15px 0;
+		    	> span {
+					display: table;
+				    margin-bottom: 15px;
+		    	}
+		    }
+		}
+	}
+}

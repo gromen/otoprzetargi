@@ -1,0 +1,45 @@
+/**
+ * Style shortcode: Noo Partner
+ */
+.noo-partner{
+	position: relative;
+	padding: 50px 0;
+	.noo-title-header{
+		.noo-theme-title{
+			margin: 0;
+		}
+		@media (max-width: 479px){
+			margin-bottom: 50px;
+		}
+	}
+	.noo-hidden{
+		display: none;
+	}
+	.partner-wapper{
+		div {
+			text-align: center;
+			a {
+				display: inline-block;
+				overflow: hidden;
+				img{
+					max-width: 190px;
+					.transition(all 1s ease);
+				}
+				&:hover {
+					img {
+						.scale(1.2);
+					}
+				}
+			}
+		}
+		.slick-slide {
+			margin-left: 0px;
+    		margin-right: 6px;
+		}
+	}
+	.slick-slider {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+}

@@ -1,0 +1,116 @@
+/**
+ * Style rating
+ */
+.rp-box-rating {
+    margin: -10px 0 25px;
+    .clearfix();
+    > label {
+	float: left;
+	color: #515666;
+	font-size: 14px;
+	font-weight: 500;
+	margin-right: 20px;
+	line-height: 35px;
+	vertical-align: middle;
+    }
+    &.validate-error {
+
+    }
+    .rp-property-notice {
+	padding: 15px 0;
+	font-size: 13px;
+	font-style: italic;
+    }
+}
+
+.rp-rating {
+    margin: 0;
+    padding: 0;
+    border: none;
+    float: left;
+    label {
+	margin: 0;
+	padding: 0;
+    }
+    > input {
+	display: none;
+    }
+    > label {
+	color: #ddd;
+	float: right;
+	cursor: pointer;
+	font-weight: 300;
+	&:before {
+	    margin: 5px;
+	    font-size: 1.25em;
+	    font-family: "rpicons";
+	    display: inline-block;
+	    content: "\f4b3";
+	    // margin: 5px;
+	    // font-size: 18px;
+	    // line-height: 24px;
+	    // // letter-spacing: 1.5px;
+	    // font-family: 'Ionicons';
+	    // display: inline-block;
+	    // content: "\f4b3";
+	}
+    }
+    > .half {
+	&:before {
+	    content: "\f4b1";
+	    position: absolute;
+	}
+    }
+    > input:checked ~ label, /* show gold star when clicked */
+    &:not(:checked) > label:hover, /* hover current star */
+    &:not(:checked) > label:hover ~ label {
+	color: @secondary-color;
+	font-weight: 300;
+    }
+
+    > input:checked + label:hover, /* hover current star when changing rating */
+    > input:checked ~ label:hover,
+    > label:hover ~ input:checked ~ label, /* lighten current selection */
+    > input:checked ~ label:hover ~ label {
+	color: lighten(@secondary-color, 15%);
+	font-weight: 300;
+    }
+}
+
+.rp-stars-rating {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    .translate(0, -10px);
+    &:before {
+	background-color: @secondary-color;
+	content: '';
+	width: 90px;
+	height: 16px;
+	display: inline-block;
+	-webkit-mask: url(../svg/star-outline.svg) no-repeat 50% 50%;
+	mask: url(../svg/star-outline.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+	position: absolute;
+    }
+    span {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	overflow: hidden;
+	top: -4px;
+	&:before {
+	    width: 90px;
+	    content: '';
+	    z-index: 9;
+	    background-color: @secondary-color;
+	    height: 16px;
+	    display: inline-block;
+	    -webkit-mask: url(../svg/star.svg) no-repeat 50% 50%;
+	    mask: url(../svg/star.svg) no-repeat 50% 50%;
+	    -webkit-mask-size: cover;
+	    mask-size: cover;
+	}
+    }
+}

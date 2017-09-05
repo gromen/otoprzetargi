@@ -1,0 +1,273 @@
+.noo-margin-top-80 {
+	margin-top: 80px;
+}
+.noo-margin-top-85 {
+	margin-top: 85px;
+}
+.noo-margin-top-90 {
+	margin-top: 90px;
+}
+.noo-margin-top-100 {
+	margin-top: 100px;
+}
+.noo-margin-top-115 {
+	margin-top: 115px;
+}
+.noo-margin-top-120 {
+	margin-top: 120px;
+}
+.noo-margin-top-130 {
+	margin-top: 130px;
+}
+.noo-margin-top-145 {
+	margin-top: 145px;
+}
+
+.noo-margin-bottom-40 {
+	margin-bottom: 40px;
+}
+.noo-margin-bottom-60 {
+	margin-bottom: 60px;
+}
+.noo-margin-bottom-70 {
+	margin-bottom: 70px;
+}
+.noo-margin-bottom-80 {
+	margin-bottom: 80px;
+}
+.noo-margin-bottom-90 {
+	margin-bottom: 90px;
+}
+.noo-margin-bottom-110 {
+	margin-bottom: 110px;
+}
+.noo-margin-bottom-120 {
+	margin-bottom: 120px;
+}
+.noo-margin-bottom-270 {
+	margin-bottom: 270px;
+}
+.noo-margin-bottom-250 {
+	margin-bottom: 250px;
+}
+
+.noo-padding-right-70{
+	padding-right: 70px !important;
+}
+
+.noo-padding-left-300{
+	padding-left: 300px !important;
+}
+
+@media (max-width: 991px) {
+	.noo-margin-bottom-270 {
+		margin-bottom: 120px;
+	}
+
+	.noo-padding-right-70{
+		padding-right: 0px !important;
+	}
+
+	.noo-padding-left-300{
+		padding-left: 260px !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.noo-margin-top-90 {
+		margin-top: 10px;
+	}
+	.noo-margin-top-85 {
+		margin-top: 20px;
+	}
+	.noo-margin-top-80 {
+		margin-top: 20px;
+	}
+	.noo-margin-top-100 {
+		margin-top: 30px;
+	}
+	.noo-margin-top-115 {
+		margin-top: 50px;
+	}
+	.noo-margin-top-120 {
+		margin-top: 30px;
+	}
+	.noo-margin-top-130 {
+		margin-top: 30px;
+	}
+	.noo-margin-top-145 {
+		margin-top: 10px;
+	}
+
+	.noo-margin-bottom-60 {
+		margin-bottom: 20px;
+	}
+	.noo-margin-bottom-70 {
+		margin-bottom: 20px;
+	}
+	.noo-margin-bottom-90 {
+		margin-bottom: 10px;
+	}
+	.noo-margin-bottom-40 {
+		margin-bottom: 20px;
+	}
+	.noo-margin-bottom-80 {
+		margin-bottom: 20px;
+	}
+	.noo-margin-bottom-120 {
+		margin-bottom: 30px;
+	}
+	.noo-margin-bottom-270 {
+		margin-bottom: 30px;
+	}
+	.noo-margin-bottom-110 {
+		margin-bottom: 30px;
+	}
+	.noo-margin-bottom-250 {
+		margin-bottom: 30px;
+	}
+
+	.noo-padding-left-300{
+		padding-left: 260px !important;
+	}
+}
+
+.about-group{
+	padding: 60px 0 90px;
+	min-height: 460px;
+	background: @white;
+	.noo-progress{
+		padding: 0;
+		position: inherit;
+		img{
+			position: absolute;
+			bottom: -100px;
+			left: -50px;
+		}
+	}
+	.noo-video{
+		margin-top: 50px;
+		a{
+			max-height: 260px;
+			.box-shadow(0 0 35px 0 fade(@black, 12%));
+			&:before{
+				background: fade(@white, 80%)
+			}
+			> span{
+				width: 68px;
+				height: 68px;
+				line-height: 68px;
+				font-size: 36px;
+			}
+		}
+	}
+	
+	@media (max-width: @screen-md-max) {
+		.noo-padding-right-70 {
+			padding-right: 30px !important;
+		}
+    	.noo-progress {
+    		img {
+    			bottom: -90px;
+    			left: -10px;
+    		}
+    	}
+    }
+
+	@media (max-width: @screen-sm-max) {
+    	.wpb_column{
+    		width: 100%;
+    	}
+    	.noo-progress {
+    		img {
+    			max-width: 230px;
+    			left: 0;
+    			bottom: 0;
+    		}
+    	}
+    }
+
+	@media (max-width: @screen-xs-max) {
+    	.wpb_column{
+    		width: 100%;
+    	}
+    	.noo-progress {
+    		img {
+    			left: 15px;
+    		}
+    	}
+    }
+
+	@media (max-width: 479px) {
+		.noo-padding-left-300{
+			padding-left: 0 !important;
+		}
+    	.noo-video {
+    		margin-top: 35px;
+    	}
+    }
+
+    @media ( max-width: @screen-sm-max ) and ( min-width: 480px ){
+    	.noo-video {
+    		a {
+    			max-height: 330px;
+    			width: 100%;
+    		}
+    	}
+    }
+
+}
+
+.faq-group {
+	position: relative;
+	.noo-faq-img {
+		position: absolute;
+		bottom: 0;
+		right: -34px;
+		.wpb_single_image{
+			margin: 0;
+		}
+	}
+
+	@media ( max-width: @screen-md-max ){
+		.noo-faq-img {
+			right: 0;
+		}
+	}
+
+	@media ( max-width: @screen-sm-max ){
+		.noo-faq-img {
+			position: relative;
+			right: 0;
+		}
+    	.wpb_column{
+    		width: 100%;
+    	}
+
+    }
+}
+
+
+/**
+ * Boxed layout
+ */
+.boxed-layout {
+	.about-group {
+		.noo-padding-left-300 {
+		    padding-left: 390px !important;
+		}
+		.noo-padding-right-70 {
+		    padding-right: 30px !important;
+		}
+		.noo-progress {
+			img {
+				left: 0;
+			}
+		}
+	}
+	.faq-group {
+		.noo-faq-img {
+			right: 0;
+		}
+	}
+}

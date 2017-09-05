@@ -1,0 +1,2002 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Realty Portal\n"
+"POT-Creation-Date: 2017-09-01 14:00+0700\n"
+"PO-Revision-Date: 2017-05-05 14:33+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: realty-portal.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/addons/addon-display.php:11
+msgid "Add-ons"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:13
+msgid "Update list"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:17
+msgid "Plugins list"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:60
+msgid "Not Active"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:63
+msgid "Deactivate"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:66
+#: includes/property/library/class-properties-factory.php:103
+msgid "Active"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:69
+msgid "Not Installed"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:76
+msgid "Add-on locked"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:91
+msgid "Installed Version"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:98
+msgid "Available Version"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:104
+msgid "Check for Update"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:111
+msgid "Up to date"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:114
+msgid "Update Now"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:121
+msgid "Install this Add-on"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:124
+msgid "Register Realty Portal"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:134
+msgid "Activate Plugin"
+msgstr ""
+
+#: includes/admin/addons/addon-display.php:145
+msgid "Currently there are no addons. We will update soon."
+msgstr ""
+
+#: includes/admin/addons/class-addon.php:67
+#: includes/admin/addons/class-addon.php:115
+#: includes/admin/addons/class-addon.php:135
+#: includes/functions/rp-upload.php:17 includes/functions/rp-upload.php:261
+#: includes/property/library/get-geocoding-map.php:17
+#: includes/property/process/ajax-create-print.php:17
+#: includes/property/process/ajax-loadmore-comment.php:17
+#: includes/property/process/ajax-loadmore-property-request.php:17
+#: includes/property/process/ajax-save-property-setting.php:16
+#: includes/property/process/ajax-submit-comment.php:17
+#: includes/property/process/save-search.php:111
+#: includes/property/process/save-search.php:153
+msgid "Security Breach! Please contact admin!"
+msgstr ""
+
+#: includes/admin/form/form-contact-email.php:14
+msgid "CC all Property Emails to"
+msgstr ""
+
+#: includes/admin/form/form-contact-email.php:17
+msgid "Enter your email..."
+msgstr ""
+
+#: includes/admin/form/form-contact-email.php:24
+#: includes/property/library/custom-field.php:147
+#: includes/property/library/custom-field.php:242
+#: includes/shortcodes/map/new_params.php:18
+msgid "None"
+msgstr ""
+
+#: includes/admin/form/form-contact-email.php:30
+msgid "Custom Property Contact Form"
+msgstr ""
+
+#: includes/admin/form/form-contact-email.php:35
+msgid ""
+"Select a form you created with Contact Form 7 plugin to use for contact "
+"and send email on Property page."
+msgstr ""
+
+#: includes/admin/form/form-contact-email.php:36
+#: includes/admin/form/form-contact-email.php:48
+msgid "Note:"
+msgstr ""
+
+#: includes/admin/form/form-contact-email.php:37
+#: includes/admin/form/form-contact-email.php:49
+msgid ""
+" - The contact form must include the fields: [your-name], [your-email] and "
+"[your-message]"
+msgstr ""
+
+#: includes/admin/form/form-contact-email.php:38
+#: includes/admin/form/form-contact-email.php:50
+msgid ""
+" - You can use the following tags in the email of that form: [agent-id], "
+"[agent-name] and [agent-url]."
+msgstr ""
+
+#: includes/admin/form/form-contact-email.php:42
+msgid "Custom Agent Contact Form"
+msgstr ""
+
+#: includes/admin/form/form-contact-email.php:47
+msgid ""
+"Select a form you created with Contact Form 7 plugin to use for contact "
+"and send email on agent profile page."
+msgstr ""
+
+#: includes/admin/form/form-contact-email.php:56
+#: includes/admin/tab/property.php:26
+msgid "Contact & Email"
+msgstr ""
+
+#: includes/admin/form/form-demo.php:13
+msgid "Demo Form"
+msgstr ""
+
+#: includes/admin/form/form-demo.php:18
+msgid "Field text"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:13
+msgid "Google Map"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:19
+msgid "Map Displaying"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:22
+msgid "Google Maps API"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:25
+msgid "Please enter your google map api"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:29
+msgid "Starting Point Latitude"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:35
+msgid "Starting Point Longitude"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:41
+msgid "Default Zoom Level"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:47
+msgid "Default Map Height (px)"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:53
+msgid "Automatically Fit all Properties"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:56
+msgid ""
+"Enable this option and all your listings will fit your map automatically."
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:59
+msgid "Drag Map"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:62
+msgid "Tick this box to make map draggable."
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:70
+msgid "Location Input"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:73
+msgid "Google Map Auto-Complete"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:77
+msgid "Using Auto-Complete from Google Map for your location input."
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:80
+msgid "Country Restriction"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:86
+msgid ""
+"Select your country will limit all suggestions to your local locations. "
+"Select All to use all the countries around the world. Note: you should "
+"disable Country field if you enable this function."
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:89
+msgid "Location Type"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:95
+msgid "Select the location type that matches your business."
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:98
+#: includes/class-property.php:839
+#: templates/property/single-property/address.php:38
+#: templates/property/single-property/address.php:45
+msgid "Address"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:102
+#: includes/admin/form/form-google-map-setting.php:109
+#: includes/admin/form/form-google-map-setting.php:116
+#: includes/admin/form/form-google-map-setting.php:123
+#: includes/admin/form/form-google-map-setting.php:130
+#: includes/admin/form/form-google-map-setting.php:137
+#: includes/admin/form/form-google-map-setting.php:144
+#: includes/admin/form/form-google-map-setting.php:151
+#: includes/admin/page/custom-field-template.php:76
+#: includes/functions/enqueue.php:223
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:105
+#: includes/class-property.php:848
+#: includes/property/library/custom-field.php:167
+#: templates/property/single-property/address.php:52
+msgid "Country"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:112
+#: includes/class-property.php:885
+msgid "State"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:119
+#: includes/class-property.php:858
+#: includes/property/library/custom-field.php:171
+#: templates/property/single-property/address.php:59
+msgid "City"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:126
+#: includes/class-property.php:867
+#: includes/property/library/custom-field.php:175
+#: templates/property/single-property/address.php:70
+msgid "Neighborhood"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:133
+msgid "Zip Code"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:140
+msgid "Latitude & Longitude"
+msgstr ""
+
+#: includes/admin/form/form-google-map-setting.php:147
+#: includes/class-property.php:915
+msgid "Maps"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:15
+msgid "Property Setting"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:20
+msgid "Property Archive Base (slug)"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:26
+msgid "Listing Type Base (slug)"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:32
+msgid "Listing Offers Base (slug)"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:38
+msgid "Area Unit"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:44
+msgid "Currency"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:51
+msgid "Currency Position"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:56
+msgid "Left"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:57
+msgid "Right"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:58
+msgid "Left with space"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:59
+msgid "Right with space"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:63
+msgid "Thousand Separator"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:69
+msgid "Decimal Separator"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:75
+msgid "Number of Decimals"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:86
+msgid "Property Submit"
+msgstr ""
+
+#: includes/admin/form/form-property-setting.php:89
+msgid "Roles don't need approval"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/admin/menu-page.php:12 includes/admin/menu-page.php:13
+msgid "Realty Portal"
+msgstr ""
+
+#: includes/admin/menu-page.php:23 includes/admin/menu-page.php:24
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/menu-page.php:32 includes/admin/menu-page.php:33
+#: includes/admin/page/custom-field-template.php:23
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/admin/menu-page.php:41 includes/admin/menu-page.php:42
+msgid "Features & Amenities"
+msgstr ""
+
+#: includes/admin/menu-page.php:50 includes/admin/menu-page.php:51
+msgid "Add-Ons"
+msgstr ""
+
+#: includes/admin/page/custom-field-property.php:23
+#: includes/admin/page/custom-field-property.php:151
+#: includes/admin/page/features-amenities.php:104
+#: includes/functions/fields.php:18
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/page/custom-field-property.php:38
+msgid "Primary Fields"
+msgstr ""
+
+#: includes/admin/page/custom-field-property.php:40
+msgid "Primary fields which will be show on the property listing page"
+msgstr ""
+
+#: includes/admin/page/custom-field-property.php:50
+msgid "Primary Field #1"
+msgstr ""
+
+#: includes/admin/page/custom-field-property.php:63
+#: includes/admin/page/custom-field-property.php:88
+#: includes/admin/page/custom-field-property.php:114
+#: includes/admin/page/custom-field-property.php:140
+msgid "Image Icon"
+msgstr ""
+
+#: includes/admin/page/custom-field-property.php:75
+msgid "Primary Field #2"
+msgstr ""
+
+#: includes/admin/page/custom-field-property.php:101
+msgid "Primary Field #3"
+msgstr ""
+
+#: includes/admin/page/custom-field-property.php:127
+msgid "Primary Field #4"
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:32
+msgid "Field Key"
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:33
+msgid ""
+"The key used to save this field to database.<br/>Should only includes "
+"lower characters with no space."
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:35
+msgid "Field Label"
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:36
+msgid "Field Type"
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:38
+msgid "Field Value/Params"
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:39
+msgid ""
+"Default value or options for this field.<br/>\n"
+" - Field text, number or textarea use this Value as placeholder<br/>\n"
+" - Field select, multiple select, radio or checkbox generate the options "
+"from this Value using line break as separator. Sample options:<br/>\n"
+"\tvalue_1|Option 1<br/>\n"
+"\tOption 2 ( value can be obmitted )<br/>\n"
+"\tvalue_3|Option 3"
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:46
+msgid "Required"
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:47
+msgid "Action"
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:70
+#: includes/admin/page/features-amenities.php:75
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:79
+#: includes/functions/enqueue.php:224
+msgid "Disable"
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:90
+#: includes/admin/page/features-amenities.php:54
+msgid "Enter your field key..."
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:93
+#: includes/admin/page/features-amenities.php:59
+msgid "Enter your field label..."
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:103
+msgid "Enter your value..."
+msgstr ""
+
+#: includes/admin/page/custom-field-template.php:140
+#: includes/admin/page/features-amenities.php:93
+msgid "Add new"
+msgstr ""
+
+#: includes/admin/page/features-amenities.php:22
+msgid "Listings Features & Amenities"
+msgstr ""
+
+#: includes/admin/page/features-amenities.php:29
+msgid "Feature Key"
+msgstr ""
+
+#: includes/admin/page/features-amenities.php:31
+msgid ""
+"Be careful when you change the code, you could loose this field value."
+msgstr ""
+
+#: includes/admin/page/features-amenities.php:33
+msgid "Feature Label"
+msgstr ""
+
+#: includes/admin/page/features-amenities.php:66
+msgid "Select your icon..."
+msgstr ""
+
+#: includes/admin/tab/custom-field-property.php:13
+#: includes/admin/tab/property.php:13
+#: includes/property/library/custom-column-property-admin.php:22
+msgid "Property"
+msgstr ""
+
+#: includes/admin/tab/property.php:20
+msgid "Map & Location"
+msgstr ""
+
+#: includes/class-install.php:39
+msgctxt "Page slug"
+msgid "saved-search"
+msgstr ""
+
+#: includes/class-install.php:40
+msgctxt "Page title"
+msgid "Saved Search"
+msgstr ""
+
+#: includes/class-property.php:547 includes/class-property.php:557
+#: includes/class-property.php:563
+msgctxt "property"
+msgid "Properties"
+msgstr ""
+
+#: includes/class-property.php:548
+msgctxt "property"
+msgid "Property"
+msgstr ""
+
+#: includes/class-property.php:549
+msgctxt "property"
+msgid "Add New"
+msgstr ""
+
+#: includes/class-property.php:550
+msgctxt "property"
+msgid "Add New Property"
+msgstr ""
+
+#: includes/class-property.php:551
+msgctxt "property"
+msgid "Edit Property"
+msgstr ""
+
+#: includes/class-property.php:552
+msgctxt "property"
+msgid "New Property"
+msgstr ""
+
+#: includes/class-property.php:553
+msgctxt "property"
+msgid "View Property"
+msgstr ""
+
+#: includes/class-property.php:554
+msgctxt "property"
+msgid "Search Properties"
+msgstr ""
+
+#: includes/class-property.php:555
+msgctxt "property"
+msgid "No properties found"
+msgstr ""
+
+#: includes/class-property.php:556
+msgctxt "property"
+msgid "No properties found in Trash"
+msgstr ""
+
+#: includes/class-property.php:564
+msgctxt "property"
+msgid ""
+"Searchable properties with detailed information about the corresponding "
+"item."
+msgstr ""
+
+#: includes/class-property.php:599 includes/shortcodes/map/map.php:48
+#: includes/widgets/featured-property.php:149
+#: includes/widgets/property-listing.php:180
+#: includes/widgets/property-taxonomies.php:77
+msgid "Listing Types"
+msgstr ""
+
+#: includes/class-property.php:600
+msgid "Listing Type"
+msgstr ""
+
+#: includes/class-property.php:605
+msgctxt "taxonomy types"
+msgid "Listing Types"
+msgstr ""
+
+#: includes/class-property.php:606
+msgctxt "taxonomy types"
+msgid "All Listing Types"
+msgstr ""
+
+#: includes/class-property.php:607
+msgctxt "taxonomy types"
+msgid "Edit Listing Type"
+msgstr ""
+
+#: includes/class-property.php:608
+msgctxt "taxonomy types"
+msgid "View Listing Type"
+msgstr ""
+
+#: includes/class-property.php:609
+msgctxt "taxonomy types"
+msgid "Update Listing Type"
+msgstr ""
+
+#: includes/class-property.php:610
+msgctxt "taxonomy types"
+msgid "Add New Listing Type"
+msgstr ""
+
+#: includes/class-property.php:611
+msgctxt "taxonomy types"
+msgid "New Listing Type Name"
+msgstr ""
+
+#: includes/class-property.php:612
+msgctxt "taxonomy types"
+msgid "Parent Listing Type"
+msgstr ""
+
+#: includes/class-property.php:613
+msgctxt "taxonomy types"
+msgid "Parent Listing Type:"
+msgstr ""
+
+#: includes/class-property.php:614
+msgctxt "taxonomy types"
+msgid "Search listing types"
+msgstr ""
+
+#: includes/class-property.php:615
+msgctxt "taxonomy types"
+msgid "Popular Listing Types"
+msgstr ""
+
+#: includes/class-property.php:616
+msgctxt "taxonomy types"
+msgid "Separate listing types with commas"
+msgstr ""
+
+#: includes/class-property.php:617
+msgctxt "taxonomy types"
+msgid "Add or remove listing types"
+msgstr ""
+
+#: includes/class-property.php:618
+msgctxt "taxonomy types"
+msgid "Choose from the most used listing types"
+msgstr ""
+
+#: includes/class-property.php:619
+msgctxt "taxonomy types"
+msgid "No listing type found"
+msgstr ""
+
+#: includes/class-property.php:635 includes/shortcodes/map/map.php:42
+#: includes/widgets/featured-property.php:137
+#: includes/widgets/property-listing.php:168
+#: includes/widgets/property-taxonomies.php:78
+msgid "Listing Offers"
+msgstr ""
+
+#: includes/class-property.php:636
+#: includes/property/library/custom-column-property-admin.php:20
+msgid "Offer"
+msgstr ""
+
+#: includes/class-property.php:641
+msgctxt "taxonomy offers"
+msgid "Listing Offers"
+msgstr ""
+
+#: includes/class-property.php:642
+msgctxt "taxonomy offers"
+msgid "All Listing Offers"
+msgstr ""
+
+#: includes/class-property.php:643
+msgctxt "taxonomy offers"
+msgid "Edit Offer"
+msgstr ""
+
+#: includes/class-property.php:644
+msgctxt "taxonomy offers"
+msgid "View Offer"
+msgstr ""
+
+#: includes/class-property.php:645
+msgctxt "taxonomy offers"
+msgid "Update Offer"
+msgstr ""
+
+#: includes/class-property.php:646
+msgctxt "taxonomy offers"
+msgid "Add New Offer"
+msgstr ""
+
+#: includes/class-property.php:647
+msgctxt "taxonomy offers"
+msgid "New Offer Name"
+msgstr ""
+
+#: includes/class-property.php:648
+msgctxt "taxonomy offers"
+msgid "Parent Offer"
+msgstr ""
+
+#: includes/class-property.php:649
+msgctxt "taxonomy offers"
+msgid "Parent Offer:"
+msgstr ""
+
+#: includes/class-property.php:650
+msgctxt "taxonomy offers"
+msgid "Search listing offers"
+msgstr ""
+
+#: includes/class-property.php:651
+msgctxt "taxonomy offers"
+msgid "Popular Listing Offers"
+msgstr ""
+
+#: includes/class-property.php:652
+msgctxt "taxonomy offers"
+msgid "Separate listing offers with commas"
+msgstr ""
+
+#: includes/class-property.php:653
+msgctxt "taxonomy offers"
+msgid "Add or remove listing offers"
+msgstr ""
+
+#: includes/class-property.php:654
+msgctxt "taxonomy offers"
+msgid "Choose from the most used listing offers"
+msgstr ""
+
+#: includes/class-property.php:655
+msgctxt "taxonomy offers"
+msgid "No listing type found"
+msgstr ""
+
+#: includes/class-property.php:675
+#: includes/property/library/class-properties-factory.php:93
+msgid "Expired"
+msgstr ""
+
+#: includes/class-property.php:680
+#, php-format
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/class-property.php:680
+#, php-format
+msgid "Unread <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/class-property.php:747
+msgid "General Information"
+msgstr ""
+
+#: includes/class-property.php:751
+#, php-format
+msgid "Price (%s)"
+msgstr ""
+
+#: includes/class-property.php:756
+msgid "Before Price Label"
+msgstr ""
+
+#: includes/class-property.php:761
+msgid "After Price Label"
+msgstr ""
+
+#: includes/class-property.php:766
+#: templates/property/single-property/document.php:17
+msgid "Document"
+msgstr ""
+
+#: includes/class-property.php:768 includes/class-property.php:774
+msgid "Link http://"
+msgstr ""
+
+#: includes/class-property.php:772
+msgid "Video"
+msgstr ""
+
+#: includes/class-property.php:786
+msgid "Additional Information"
+msgstr ""
+
+#: includes/class-property.php:823
+#: includes/property/process/ajax-create-print.php:218
+msgid "Property Features"
+msgstr ""
+
+#: includes/class-property.php:876
+#: includes/property/library/custom-field.php:179
+#: templates/property/single-property/address.php:77
+msgid "Zip"
+msgstr ""
+
+#: includes/class-property.php:894
+msgid "Latitude"
+msgstr ""
+
+#: includes/class-property.php:904
+msgid "Longitude"
+msgstr ""
+
+#: includes/class-property.php:923
+msgid "Listing Location"
+msgstr ""
+
+#: includes/class-property.php:935 includes/class-property.php:938
+msgid "Property Photo"
+msgstr ""
+
+#: includes/class-property.php:952 includes/class-property.php:958
+msgid "Agent Responsible"
+msgstr ""
+
+#: includes/class-property.php:991
+msgid "Subject for Expired Property"
+msgstr ""
+
+#: includes/class-property.php:991
+#, php-format
+msgid ""
+"Hi there,\n"
+"One of your free listings on %s has \"expired\".\n"
+"The property is %s.\n"
+"Thank you!"
+msgstr ""
+
+#: includes/class-welcome.php:99
+msgid "About"
+msgstr ""
+
+#: includes/class-welcome.php:105
+msgid "Getting started"
+msgstr ""
+
+#: includes/class-welcome.php:132 includes/class-welcome.php:148
+#, php-format
+msgid "Welcome to Realty Portal %s"
+msgstr ""
+
+#: includes/class-welcome.php:133 includes/class-welcome.php:149
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Realty Portal %s is ready to "
+"make your real estate website faster, safer and better!"
+msgstr ""
+
+#: includes/functions/enqueue.php:68 includes/functions/enqueue.php:200
+msgid "No results found"
+msgstr ""
+
+#: includes/functions/enqueue.php:69 includes/functions/enqueue.php:201
+msgid "Geocoder failed due to: "
+msgstr ""
+
+#: includes/functions/enqueue.php:91
+msgid "Fullscreen"
+msgstr ""
+
+#: includes/functions/enqueue.php:92
+msgid "Default"
+msgstr ""
+
+#: includes/functions/enqueue.php:114
+msgid "Print Me"
+msgstr ""
+
+#: includes/functions/enqueue.php:115
+msgid "Please select a Property Photo as featured image"
+msgstr ""
+
+#: includes/functions/enqueue.php:141
+msgid "Remove image"
+msgstr ""
+
+#: includes/functions/enqueue.php:222
+msgid "Please wait..."
+msgstr ""
+
+#: includes/functions/rp-upload.php:47
+msgid "Upload success"
+msgstr ""
+
+#: includes/functions/rp-upload.php:50
+msgid "Upload error"
+msgstr ""
+
+#: includes/functions/rp-upload.php:81
+#: includes/libs/custom-fields/defaults/upload_image/upload_image.php:18
+msgid "Upload"
+msgstr ""
+
+#: includes/functions/rp-upload.php:134
+msgid "Drop your files or folders here"
+msgstr ""
+
+#: includes/functions/rp-upload.php:272
+msgid "Remove image success."
+msgstr ""
+
+#: includes/functions/rp-upload.php:276
+msgid "Don't support format, please contact administration!"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/checkbox/checkbox.php:48
+msgid "Checkbox"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/color_picker/color_picker.php:27
+msgid "Color Picker"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/date/date.php:25
+#: includes/shortcodes/map/map.php:59
+msgid "Date"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/email/email.php:23
+#: templates/property/comment/form-comment.php:53
+msgid "Email"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/gmap/gmap.php:27
+msgid "GMap"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/icon/icon.php:35
+#: includes/property/library/custom-listing-type.php:19
+#: includes/property/library/custom-listing-type.php:77
+#: includes/property/library/custom-listing-type.php:124
+msgid "Icon"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/image/image.php:26
+#: includes/libs/custom-fields/defaults/image/image.php:98
+#: includes/libs/meta-boxes/meta-boxes-functions.php:309
+#: includes/libs/meta-boxes/meta-boxes-functions.php:363
+msgid "Change Image"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/image/image.php:26
+#: includes/libs/custom-fields/defaults/image/image.php:109
+#: includes/libs/meta-boxes/meta-boxes-functions.php:309
+#: includes/libs/meta-boxes/meta-boxes-functions.php:374
+msgid "Select Image"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/image/image.php:46
+#: includes/libs/meta-boxes/meta-boxes-functions.php:312
+msgid "Clear Image"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/image/image.php:69
+#: includes/libs/meta-boxes/meta-boxes-functions.php:334
+msgid "Select or Upload your Image"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/image/image.php:71
+#: includes/libs/custom-fields/defaults/select/select.php:65
+#: includes/libs/meta-boxes/meta-boxes-functions.php:265
+#: includes/libs/meta-boxes/meta-boxes-functions.php:336
+#: includes/libs/meta-boxes/meta-boxes-functions.php:774
+msgid "Select"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/image/image.php:120
+msgid "Image"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/line/line.php:17
+msgid "Line"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/multiple_select/multiple_select.php:52
+msgid "Multiple Select"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/number/number.php:19
+#: includes/widgets/featured-property.php:126
+#: includes/widgets/property-listing.php:141
+msgid "Number"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/pages/pages.php:53
+msgid "Pages"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/password/password.php:22
+msgid "Password"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/radio/radio.php:54
+msgid "Radio"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/select/select.php:28
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/text/text.php:25
+msgid "Text"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/textarea/textarea.php:29
+msgid "Textarea"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/upload_image/upload_image.php:39
+#: includes/libs/meta-boxes/class-meta-boxes.php:149
+msgid "Upload Image"
+msgstr ""
+
+#: includes/libs/custom-fields/defaults/url/url.php:20
+#: includes/shortcodes/builder/params/vc_link.php:36
+msgid "URL"
+msgstr ""
+
+#: includes/libs/meta-boxes/class-meta-boxes.php:89
+msgid "The Link"
+msgstr ""
+
+#: includes/libs/meta-boxes/class-meta-boxes.php:98
+msgid "M4V File URL"
+msgstr ""
+
+#: includes/libs/meta-boxes/class-meta-boxes.php:99
+msgid "Place the URL to your .m4v video file here."
+msgstr ""
+
+#: includes/libs/meta-boxes/class-meta-boxes.php:104
+msgid "OGV File URL"
+msgstr ""
+
+#: includes/libs/meta-boxes/class-meta-boxes.php:105
+msgid "Place the URL to your .ogv video file here."
+msgstr ""
+
+#: includes/libs/meta-boxes/class-meta-boxes.php:110
+msgid "Video Aspect Ratio"
+msgstr ""
+
+#: includes/libs/meta-boxes/class-meta-boxes.php:111
+msgid "Choose the aspect ratio for your video."
+msgstr ""
+
+#: includes/libs/meta-boxes/class-meta-boxes.php:139
+msgid "Embedded Video Code"
+msgstr ""
+
+#: includes/libs/meta-boxes/class-meta-boxes.php:140
+msgid ""
+"If you are using something other than self hosted video (YouTube, Vimeo, "
+"etc.) paste the embed code here. This field will override the above "
+"settings."
+msgstr ""
+
+#: includes/libs/meta-boxes/meta-boxes-functions.php:135
+#: includes/libs/meta-boxes/meta-boxes-functions.php:206
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/libs/meta-boxes/meta-boxes-functions.php:135
+#: includes/libs/meta-boxes/meta-boxes-functions.php:219
+msgid "Add Images"
+msgstr ""
+
+#: includes/libs/meta-boxes/meta-boxes-functions.php:138
+msgid "Clear Gallery"
+msgstr ""
+
+#: includes/libs/meta-boxes/meta-boxes-functions.php:239
+#: includes/libs/meta-boxes/meta-boxes-functions.php:280
+msgid "Change File"
+msgstr ""
+
+#: includes/libs/meta-boxes/meta-boxes-functions.php:239
+#: includes/libs/meta-boxes/meta-boxes-functions.php:291
+msgid "Select File"
+msgstr ""
+
+#: includes/libs/meta-boxes/meta-boxes-functions.php:242
+msgid "Clear File"
+msgstr ""
+
+#: includes/libs/meta-boxes/meta-boxes-functions.php:263
+msgid "Select or Upload your File"
+msgstr ""
+
+#: includes/libs/meta-boxes/meta-boxes-functions.php:424
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: includes/libs/meta-boxes/meta-boxes-functions.php:667
+msgid "Don't Need Menu"
+msgstr ""
+
+#: includes/libs/meta-boxes/meta-boxes-functions.php:682
+msgid "No User"
+msgstr ""
+
+#: includes/libs/meta-boxes/meta-boxes-functions.php:708
+msgid " - No Slider - "
+msgstr ""
+
+#: includes/property/fields/custom_fields/custom_fields.php:76
+#: includes/property/fields/property_featured/property_featured.php:44
+msgid "Custom Field"
+msgstr ""
+
+#: includes/property/library/class-properties-factory.php:98
+msgid "Waiting for Approval"
+msgstr ""
+
+#: includes/property/library/class-properties-factory.php:148
+#: includes/property/library/custom-column-property-admin.php:92
+#: includes/property/library/custom-column-property-admin.php:177
+#: includes/shortcodes/map/map.php:58
+msgid "Featured"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:21
+msgid "ID"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:23
+#: includes/property/library/custom-field.php:155
+#: includes/property/process/ajax-create-print.php:193
+#: includes/shortcodes/map/map.php:60
+#: templates/property/single-property/additional-details.php:36
+msgid "Price"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:24
+msgid "Posted"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:25
+msgid "Status"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:26
+msgid "Actions"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:84
+#: includes/property/library/custom-column-property-admin.php:114
+msgid "Edit"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:120
+#: includes/property/library/custom-column-property-admin.php:215
+msgid "View"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:147
+msgid "by a guest"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:147
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:162
+msgid "Approve"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:184
+msgid "Trash"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:192
+msgid "Restore"
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:237
+#: includes/property/library/custom-column-property-admin.php:281
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/property/library/custom-column-property-admin.php:241
+#: includes/property/library/custom-column-property-admin.php:285
+msgid "You have taken too long. Please go back and retry."
+msgstr ""
+
+#: includes/property/library/custom-field.php:26
+#, php-format
+msgid "Area (%s)"
+msgstr ""
+
+#: includes/property/library/custom-field.php:36
+#: includes/property/process/save-search.php:23
+#: templates/shortcode/saved-search.php:73
+msgid "Bedrooms"
+msgstr ""
+
+#: includes/property/library/custom-field.php:46
+#: includes/property/process/save-search.php:26
+#: templates/shortcode/saved-search.php:76
+msgid "Bathrooms"
+msgstr ""
+
+#: includes/property/library/custom-field.php:56
+msgid "Garages"
+msgstr ""
+
+#: includes/property/library/custom-field.php:66
+msgid "Year Built"
+msgstr ""
+
+#: includes/property/library/custom-field.php:76
+msgid "Flooring"
+msgstr ""
+
+#: includes/property/library/custom-field.php:151
+msgid "Keyword"
+msgstr ""
+
+#: includes/property/library/custom-field.php:159
+#: includes/property/process/ajax-create-print.php:168
+msgid "Offers"
+msgstr ""
+
+#: includes/property/library/custom-field.php:163
+msgid "Types"
+msgstr ""
+
+#: includes/property/library/custom-field.php:272
+#: includes/shortcodes/map/new_params.php:49
+#, php-format
+msgid "Custom Field: %s"
+msgstr ""
+
+#: includes/property/library/custom-listing-offers.php:19
+#: includes/property/library/custom-listing-offers.php:76
+#: includes/property/library/custom-listing-offers.php:123
+msgid "Color"
+msgstr ""
+
+#: includes/property/library/custom-listing-offers.php:20
+#: includes/property/library/custom-listing-type.php:20
+#: includes/property/process/ajax-create-print.php:186
+msgid "Type"
+msgstr ""
+
+#: includes/property/library/custom-listing-offers.php:21
+#: includes/property/library/custom-listing-type.php:21
+msgid "Description"
+msgstr ""
+
+#: includes/property/library/custom-listing-offers.php:22
+#: includes/property/library/custom-listing-type.php:22
+#: includes/widgets/property-taxonomies.php:90
+msgid "Count"
+msgstr ""
+
+#: includes/property/library/functions.php:113
+msgid "Share on Facebook"
+msgstr ""
+
+#: includes/property/library/functions.php:119
+msgid "Share on Twitter"
+msgstr ""
+
+#: includes/property/library/functions.php:124
+msgid "Share on Google+"
+msgstr ""
+
+#: includes/property/library/functions.php:129
+msgid "Share on Pinterest"
+msgstr ""
+
+#: includes/property/library/functions.php:134
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: includes/property/library/get-geocoding-map.php:62
+msgid "Process data geocode success!"
+msgstr ""
+
+#: includes/property/library/get-geocoding-map.php:72
+msgid "Can't process data geocode!"
+msgstr ""
+
+#: includes/property/library/property-map-location.php:1027
+msgid "Administrative Regions"
+msgstr ""
+
+#: includes/property/library/property-map-location.php:1028
+msgid "Cities"
+msgstr ""
+
+#: includes/property/library/property-map-location.php:1029
+msgid "Establishment ( Business location )"
+msgstr ""
+
+#: includes/property/library/property-map-location.php:1030
+msgid "Full address"
+msgstr ""
+
+#: includes/property/library/property-price.php:12
+msgid "United Arab Emirates Dirham"
+msgstr ""
+
+#: includes/property/library/property-price.php:13
+msgid "Euros"
+msgstr ""
+
+#: includes/property/library/property-price.php:14
+msgid "Australian Dollars"
+msgstr ""
+
+#: includes/property/library/property-price.php:15
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: includes/property/library/property-price.php:16
+msgid "Brazilian Real"
+msgstr ""
+
+#: includes/property/library/property-price.php:17
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: includes/property/library/property-price.php:18
+msgid "Canadian Dollars"
+msgstr ""
+
+#: includes/property/library/property-price.php:19
+msgid "Chilean Peso"
+msgstr ""
+
+#: includes/property/library/property-price.php:20
+msgid "Chinese Yuan"
+msgstr ""
+
+#: includes/property/library/property-price.php:21
+msgid "Colombian Peso"
+msgstr ""
+
+#: includes/property/library/property-price.php:22
+msgid "Croatia kuna"
+msgstr ""
+
+#: includes/property/library/property-price.php:23
+msgid "Czech Koruna"
+msgstr ""
+
+#: includes/property/library/property-price.php:24
+msgid "Danish Krone"
+msgstr ""
+
+#: includes/property/library/property-price.php:25
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/property/library/property-price.php:26
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/property/library/property-price.php:27
+msgid "Icelandic krona"
+msgstr ""
+
+#: includes/property/library/property-price.php:28
+msgid "Indonesia Rupiah"
+msgstr ""
+
+#: includes/property/library/property-price.php:29
+msgid "Indian Rupee"
+msgstr ""
+
+#: includes/property/library/property-price.php:30
+msgid "Israeli Shekel"
+msgstr ""
+
+#: includes/property/library/property-price.php:31
+msgid "Japanese Yen"
+msgstr ""
+
+#: includes/property/library/property-price.php:32
+msgid "Kenyan Shilling"
+msgstr ""
+
+#: includes/property/library/property-price.php:33
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: includes/property/library/property-price.php:34
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/property/library/property-price.php:35
+msgid "Nigerian Naira"
+msgstr ""
+
+#: includes/property/library/property-price.php:36
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/property/library/property-price.php:37
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: includes/property/library/property-price.php:38
+msgid "Philippine Pesos"
+msgstr ""
+
+#: includes/property/library/property-price.php:39
+msgid "Pakistani Rupees"
+msgstr ""
+
+#: includes/property/library/property-price.php:40
+msgid "Polish Zloty"
+msgstr ""
+
+#: includes/property/library/property-price.php:41
+msgid "Pounds Sterling"
+msgstr ""
+
+#: includes/property/library/property-price.php:42
+msgid "Romanian Leu"
+msgstr ""
+
+#: includes/property/library/property-price.php:43
+msgid "Russian Ruble"
+msgstr ""
+
+#: includes/property/library/property-price.php:44
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/property/library/property-price.php:45
+msgid "South African rand"
+msgstr ""
+
+#: includes/property/library/property-price.php:46
+msgid "South Korean Won"
+msgstr ""
+
+#: includes/property/library/property-price.php:47
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/property/library/property-price.php:48
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/property/library/property-price.php:49
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: includes/property/library/property-price.php:50
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/property/library/property-price.php:51
+msgid "Turkish Lira"
+msgstr ""
+
+#: includes/property/library/property-price.php:52
+msgid "US Dollars"
+msgstr ""
+
+#: includes/property/library/property-price.php:53
+msgid "Vietnamese Dong"
+msgstr ""
+
+#: includes/property/library/property-price.php:54
+msgid "Colones"
+msgstr ""
+
+#: includes/property/process/ajax-create-print.php:110
+msgid "Contact Agent"
+msgstr ""
+
+#: includes/property/process/ajax-create-print.php:148
+msgid "Property Description"
+msgstr ""
+
+#: includes/property/process/ajax-create-print.php:153
+#: templates/property/single-property/additional-details.php:19
+msgid "Additional Details"
+msgstr ""
+
+#: includes/property/process/ajax-create-print.php:240
+msgid "Floor Plans"
+msgstr ""
+
+#: includes/property/process/ajax-loadmore-comment.php:50
+#: includes/property/process/ajax-submit-comment.php:67
+msgid "Can't empty field"
+msgstr ""
+
+#: includes/property/process/ajax-loadmore-comment.php:85
+msgid "Loadmore comment success!"
+msgstr ""
+
+#: includes/property/process/ajax-loadmore-comment.php:89
+msgid "Load complete comment!"
+msgstr ""
+
+#: includes/property/process/ajax-loadmore-comment.php:95
+#: includes/property/process/ajax-submit-comment.php:113
+msgid "Can't empty id property, please contact administration!"
+msgstr ""
+
+#: includes/property/process/ajax-loadmore-property-request.php:248
+msgid "We found no results"
+msgstr ""
+
+#: includes/property/process/ajax-loadmore-property-request.php:261
+#, php-format
+msgid "<p class=\"rp-results\">%s listings found</p>"
+msgstr ""
+
+#: includes/property/process/ajax-loadmore-property-request.php:277
+#: templates/property/comment/list-comment.php:22
+msgid "Load more"
+msgstr ""
+
+#: includes/property/process/ajax-loadmore-property-request.php:285
+msgid "Nothing Found!"
+msgstr ""
+
+#: includes/property/process/ajax-save-property-setting.php:29
+msgid "Don't allow this action, please check again!"
+msgstr ""
+
+#: includes/property/process/ajax-save-property-setting.php:192
+msgid "Update success!"
+msgstr ""
+
+#: includes/property/process/ajax-submit-comment.php:88
+msgid "Comment success!"
+msgstr ""
+
+#: includes/property/process/cf7-contact.php:34
+#, php-format
+msgid "[%s] New message from [%s]"
+msgstr ""
+
+#: includes/property/process/cf7-contact.php:73
+#, php-format
+msgid "%s just sent you a message via %s's page"
+msgstr ""
+
+#: includes/property/process/cf7-contact.php:74
+#: includes/property/process/cf7-contact.php:76
+#: includes/property/process/cf7-contact.php:83
+#: includes/property/process/cf7-contact.php:85
+msgid "----------------------------------------------"
+msgstr ""
+
+#: includes/property/process/cf7-contact.php:77
+#: includes/property/process/cf7-contact.php:86
+#, php-format
+msgid "You can reply to this email to respond or send email to %s"
+msgstr ""
+
+#: includes/property/process/cf7-contact.php:78
+#, php-format
+msgid "Check %s's details at %s"
+msgstr ""
+
+#: includes/property/process/cf7-contact.php:82
+#, php-format
+msgid "%s just sent you a message via your profile"
+msgstr ""
+
+#: includes/property/process/cf7-contact.php:87
+#, php-format
+msgid "Check your details at %s"
+msgstr ""
+
+#: includes/property/process/save-search.php:35
+#: templates/shortcode/saved-search.php:85
+msgid "in"
+msgstr ""
+
+#: includes/property/process/save-search.php:57
+#: templates/shortcode/saved-search.php:107
+msgid "From"
+msgstr ""
+
+#: includes/property/process/save-search.php:57
+#: includes/property/process/save-search.php:60
+#: templates/shortcode/saved-search.php:107
+#: templates/shortcode/saved-search.php:110
+msgid "to"
+msgstr ""
+
+#: includes/property/process/save-search.php:60
+#: includes/shortcodes/map/map.php:62
+#: templates/shortcode/saved-search.php:110
+msgid "Area"
+msgstr ""
+
+#: includes/property/process/save-search.php:70
+#: templates/shortcode/saved-search.php:120
+msgid "Search Parameters:"
+msgstr ""
+
+#: includes/property/process/save-search.php:76
+#: includes/widgets/simple-search-property.php:37
+#: templates/shortcode/saved-search.php:128
+msgid "Search"
+msgstr ""
+
+#: includes/property/process/save-search.php:86
+#: templates/shortcode/saved-search.php:139
+msgid "Save"
+msgstr ""
+
+#: includes/property/process/save-search.php:128
+msgid "Add new item saved search success"
+msgstr ""
+
+#: includes/property/process/save-search.php:169
+msgid "Remove item saved search success"
+msgstr ""
+
+#: includes/shortcodes/builder/functions/class-nselements.php:38
+#, php-format
+msgid "Wrong name for shortcode:%s. Name required"
+msgstr ""
+
+#: includes/shortcodes/builder/functions/class-nselements.php:41
+#, php-format
+msgid "Wrong base for shortcode:%s. Base required"
+msgstr ""
+
+#: includes/shortcodes/builder/functions/class-nselements.php:76
+msgid "Wrong ns_map object. Base attribute is required"
+msgstr ""
+
+#: includes/shortcodes/builder/params/attach_images.php:34
+msgid "Add images"
+msgstr ""
+
+#: includes/shortcodes/builder/params/attach_images.php:34
+msgid "Add image"
+msgstr ""
+
+#: includes/shortcodes/builder/params/google_fonts.php:27
+msgid "Font Family"
+msgstr ""
+
+#: includes/shortcodes/builder/params/google_fonts.php:31
+msgid "- Select Font -"
+msgstr ""
+
+#: includes/shortcodes/builder/params/google_fonts.php:45
+msgid "Font style"
+msgstr ""
+
+#: includes/shortcodes/builder/params/iconpicker.php:58
+msgid "From all categories"
+msgstr ""
+
+#: includes/shortcodes/builder/params/iconpicker.php:62
+msgid "Uncategorized"
+msgstr ""
+
+#: includes/shortcodes/builder/params/post_categories.php:28
+#: includes/shortcodes/builder/params/post_tags.php:28
+#: includes/shortcodes/map/map.php:43 includes/shortcodes/map/map.php:49
+#: includes/widgets/featured-property.php:138
+#: includes/widgets/featured-property.php:150
+#: includes/widgets/property-listing.php:169
+#: includes/widgets/property-listing.php:181
+msgid "All"
+msgstr ""
+
+#: includes/shortcodes/builder/params/vc_link.php:33
+msgid "Insert link"
+msgstr ""
+
+#: includes/shortcodes/builder/params/vc_link.php:35
+#: includes/shortcodes/map/map.php:36
+#: includes/widgets/featured-property.php:115
+#: includes/widgets/property-listing.php:130
+#: includes/widgets/property-taxonomies.php:63
+#: includes/widgets/simple-search-property.php:61
+msgid "Title"
+msgstr ""
+
+#: includes/shortcodes/builder/templates/builder.php:24
+msgid "Close"
+msgstr ""
+
+#: includes/shortcodes/builder/templates/builder.php:25
+msgid "Save changes"
+msgstr ""
+
+#: includes/shortcodes/builder/templates/form.php:38
+msgid "General"
+msgstr ""
+
+#: includes/shortcodes/builder/templates/shortcode-list.php:15
+msgid "Insert shortcode"
+msgstr ""
+
+#: includes/shortcodes/class-shortcode-property-list.php:35
+#: includes/shortcodes/map/map.php:37
+msgid "Property Listing"
+msgstr ""
+
+#: includes/shortcodes/map/map.php:2
+msgid "Properties"
+msgstr ""
+
+#: includes/shortcodes/map/map.php:3
+msgid "Agent"
+msgstr ""
+
+#: includes/shortcodes/map/map.php:13
+msgid "RP Saved Search"
+msgstr ""
+
+#: includes/shortcodes/map/map.php:27
+msgid "Property List"
+msgstr ""
+
+#: includes/shortcodes/map/map.php:54
+msgid "Orderby"
+msgstr ""
+
+#: includes/shortcodes/map/map.php:61
+#: templates/property/comment/form-comment.php:39
+msgid "Name"
+msgstr ""
+
+#: includes/shortcodes/map/map.php:63
+msgid "Random"
+msgstr ""
+
+#: includes/shortcodes/map/map.php:69
+msgid "Order"
+msgstr ""
+
+#: includes/shortcodes/map/map.php:73
+msgid "Recent First"
+msgstr ""
+
+#: includes/shortcodes/map/map.php:74
+msgid "Older First"
+msgstr ""
+
+#: includes/shortcodes/map/map.php:80
+msgid "Posts Per Page"
+msgstr ""
+
+#: includes/widgets/featured-property.php:17
+#: includes/widgets/featured-property.php:19
+msgid "RP - Featured Property"
+msgstr ""
+
+#: includes/widgets/property-listing.php:17
+#: includes/widgets/property-listing.php:19
+msgid "RP - Property Listing"
+msgstr ""
+
+#: includes/widgets/property-listing.php:152
+msgid "Style"
+msgstr ""
+
+#: includes/widgets/property-listing.php:155
+msgid "Style 1"
+msgstr ""
+
+#: includes/widgets/property-listing.php:156
+msgid "Style 2"
+msgstr ""
+
+#: includes/widgets/property-taxonomies.php:17
+#: includes/widgets/property-taxonomies.php:19
+msgid "RP - Property Taxonomies"
+msgstr ""
+
+#: includes/widgets/property-taxonomies.php:74
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/widgets/property-taxonomies.php:93
+msgid "Show Count"
+msgstr ""
+
+#: includes/widgets/property-taxonomies.php:94
+msgid "Hide Count"
+msgstr ""
+
+#: includes/widgets/property-taxonomies.php:106
+msgid "Child"
+msgstr ""
+
+#: includes/widgets/property-taxonomies.php:109
+msgid "Show Child"
+msgstr ""
+
+#: includes/widgets/property-taxonomies.php:110
+msgid "Hide Child"
+msgstr ""
+
+#: includes/widgets/simple-search-property.php:17
+#: includes/widgets/simple-search-property.php:19
+msgid "RP - Simple Search Property"
+msgstr ""
+
+#: includes/widgets/simple-search-property.php:33
+msgid "Search for:"
+msgstr ""
+
+#: includes/widgets/simple-search-property.php:34
+msgid "Search …"
+msgstr ""
+
+#: templates/loop/property-found.php:15
+msgid "No property were found matching your selection."
+msgstr ""
+
+#: templates/loop/result-count.php:26
+#, php-format
+msgid "%d Property(s) Found"
+msgstr ""
+
+#: templates/loop/result-count.php:28
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/property/comment/form-comment.php:10
+msgid "Your Review"
+msgstr ""
+
+#: templates/property/comment/form-comment.php:11
+msgid "Submit"
+msgstr ""
+
+#: templates/property/comment/form-comment.php:41
+msgid "Please enter your name..."
+msgstr ""
+
+#: templates/property/comment/form-comment.php:45
+msgid "4 or more characters, letters and numbers"
+msgstr ""
+
+#: templates/property/comment/form-comment.php:46
+msgid "Not be blank user name"
+msgstr ""
+
+#: templates/property/comment/form-comment.php:55
+msgid "Please enter your email..."
+msgstr ""
+
+#: templates/property/comment/form-comment.php:64
+msgid "Comment"
+msgstr ""
+
+#: templates/property/comment/form-comment.php:66
+msgid "Please enter your comment..."
+msgstr ""
+
+#: templates/property/comment/form-comment.php:94
+msgid "Only members are allowed to evaluate."
+msgstr ""
+
+#: templates/property/comment/list-comment.php:21
+msgid "Reviews"
+msgstr ""
+
+#: templates/property/comment/list-comment.php:42
+msgid "There are not any comments here. Be the first one to leave comments!"
+msgstr ""
+
+#: templates/property/comment/rating.php:8
+msgid "Your Rating"
+msgstr ""
+
+#: templates/property/comment/rating.php:11
+msgid "Awesome - 5 stars"
+msgstr ""
+
+#: templates/property/comment/rating.php:12
+msgid "Pretty good - 4.5 stars"
+msgstr ""
+
+#: templates/property/comment/rating.php:13
+msgid "Pretty good - 4 stars"
+msgstr ""
+
+#: templates/property/comment/rating.php:14
+msgid "Meh - 3.5 stars"
+msgstr ""
+
+#: templates/property/comment/rating.php:15
+msgid "Meh - 3 stars"
+msgstr ""
+
+#: templates/property/comment/rating.php:16
+msgid "Kinda bad - 2.5 stars"
+msgstr ""
+
+#: templates/property/comment/rating.php:17
+msgid "Kinda bad - 2 stars"
+msgstr ""
+
+#: templates/property/comment/rating.php:18
+msgid "Meh - 1.5 stars"
+msgstr ""
+
+#: templates/property/comment/rating.php:19
+msgid "Sucks big time - 1 star"
+msgstr ""
+
+#: templates/property/comment/rating.php:20
+msgid "Sucks big time - 0.5 stars"
+msgstr ""
+
+#: templates/property/single-property/featured.php:21
+msgid "Feature"
+msgstr ""
+
+#: templates/property/single-property/location-on-map.php:28
+msgid "Location On Map"
+msgstr ""
+
+#: templates/property/single-property/video.php:18
+msgid "Property Video"
+msgstr ""
+
+#: templates/shortcode/saved-search.php:56
+msgid "You don't have any saved search"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://nootheme.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Fast. Flexible. Right solution for any Real Estate website. A feature-rich "
+"Property Listing plugin for WordPress with variety of Add-ons. It works "
+"with any theme!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NooTeam"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://nootheme.com/"
+msgstr ""

@@ -1,0 +1,33 @@
+/**
+ * Style rating
+ */
+.rp-rating {
+    > input:checked ~ label, /* show gold star when clicked */
+    &:not(:checked) > label:hover, /* hover current star */
+    &:not(:checked) > label:hover ~ label {
+	color: @secondary-color;
+    }
+
+    > input:checked + label:hover, /* hover current star when changing rating */
+    > input:checked ~ label:hover,
+    > label:hover ~ input:checked ~ label, /* lighten current selection */
+    > input:checked ~ label:hover ~ label {
+	color: lighten(@secondary-color, 15%);
+    }
+}
+
+.rp-stars-rating {
+    &:before {
+	background-color: @secondary-color;
+    }
+    span {
+	top: 0;
+	&:before {
+	    background-color: @secondary-color;
+	}
+    }
+}
+
+.rp-box-rating {
+    margin: 10px 0 0;
+}

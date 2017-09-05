@@ -1,0 +1,105 @@
+/**
+ * Noo Faq
+ */
+
+.noo-faq {
+	.noo-title{
+		font-size: 68px;
+		text-transform: inherit;
+		margin-bottom: 35px;
+		text-align: right;
+		.first-word{
+			color: @brand-primary;
+		}
+		.noo-sub-title{
+			font-size: 26px;
+			width: 62px;
+			text-align: right;
+			text-transform: uppercase;
+			padding-right: 10px;
+			display: inline-block;
+		}
+
+        @media (max-width: @screen-md-max) {
+            font-size: 47px !important;
+            .noo-sub-title{
+                font-size: 20px;
+                line-height: 18px;
+            }            
+        }
+
+        @media (max-width: 479px){
+            margin-bottom: 20px;
+        }
+	}
+    .noo_faq_group {
+		border: 1px solid #e5e5f8;
+		background: @white;
+        .box-shadow(0 0 35px 0 fade(@black, 12%));
+        padding-bottom: 1px;
+        .noo_faq_item {
+            margin-bottom: 2px;
+            display: block;
+            &:last-child {
+            	margin: 0;
+            }
+            .noo_faq_content {
+                display: block;
+                overflow: hidden;
+                padding: 30px 20px;
+                ul {
+                    padding: 5px 0 0 0;
+                }
+            }
+            h4 {
+            	color: @brand-primary;
+                font-size: 14px;
+                font-family: @font-body;
+                font-weight: @font-weight-medium;
+                letter-spacing: 1px;
+                margin: 0;
+                padding: 14px 30px 14px 20px;
+                cursor: pointer;
+                position: relative;
+                background: #ededf7;
+                .transition(all 0.4s ease 0s);
+                @media screen and (max-width: 768px) {
+                    font-size: @font-size-base;
+                }
+                &:hover {
+                    &:before {
+                        color: #FBB040;
+                    }
+                }
+                &:before {
+                    content: "\f218";
+                    right: 17px;
+                    top: 50%;
+                    .translate(0, -50%);
+                    position: absolute;
+                    font-size: 16px;
+                    color: @brand-primary;
+                    font-family: "Ionicons";
+                }
+            }
+            &.open_faq {
+                .noo_faq_content {
+                    display: block;
+                }
+                h4 {
+                    &:before {
+                        content: "\f209";
+                    }
+                }
+            }
+        }
+
+        @media (max-width: @screen-md-max) {
+            .noo_faq_item{
+                .noo_faq_content{
+                    padding: 15px;
+                }
+            }          
+        }
+    }
+}

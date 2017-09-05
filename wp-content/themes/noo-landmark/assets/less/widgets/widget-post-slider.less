@@ -1,0 +1,36 @@
+.noo-widget-post-slider-wrap {
+	position: relative;
+	.noo-post-navi {
+		> div {
+			display: inline-block !important;
+			position: absolute;
+			top: 50%;
+			width: 45px;
+			height: 45px;
+			line-height: 45px;
+			text-align: center;
+			.opacity(0);
+			.translate(0,-70%);
+			.transition;
+			&.noo_slider_prev {
+				left: -15px;
+			}
+			&.noo_slider_next {
+				right: -15px;
+			}
+		}
+	}
+	&:hover {
+		.noo-post-navi {
+			> div {
+				.opacity(1);
+				&.noo_slider_prev {
+					left: 0;
+				}
+				&.noo_slider_next {
+					right: 0;
+				}
+			}
+		}
+	}
+}

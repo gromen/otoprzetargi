@@ -1,0 +1,136 @@
+// Shortcode title
+
+.noo-theme-wraptext {
+
+	.wrap-title {
+		display: inline-block;
+		position: relative;
+		
+		.noo-theme-title-bg {
+			background-position: center center;
+			background-size: contain;
+			background-repeat: no-repeat;
+			height: 81px;
+			width: 149px;
+			position: absolute;
+			top: -13px;
+			left: 50%;
+			.translate(-50%, 0);
+		}
+
+		.noo-theme-title {
+			color: @brand-primary;
+			font-weight: @font-weight-semibold;			
+			letter-spacing: 0.5px;
+			text-transform: uppercase;
+			position: relative;
+			font-size: 36px;
+			margin-bottom: 0;
+
+			@media screen and (max-width: @screen-xs-max) {
+				font-size: 30px !important;
+			}
+			@media screen and (max-width: 479px) {
+				font-size: 24px !important;
+			}
+			.first-word {
+				color: @secondary-color;
+			}
+		}
+
+		.noo-theme-sub-title {
+			// color: @gray-2;
+			// font-family: @special-font;
+			font-weight: @font-weight-base;
+			font-size: 16px;
+			line-height: 24px;
+			.icon-decotitle{
+				font-size: 50px;
+				line-height: 28px;
+				color: @secondary-color;
+				float: left;
+				margin-right: 13px;
+			}
+
+			@media screen and (max-width: @screen-xs-max) {
+				font-size: 14px;
+				.icon-decotitle{
+					font-size: 28px;
+				}
+			}
+			@media screen and (max-width: 479px) {
+				.icon-decotitle{
+					display: block;
+					float: none;
+				}
+			}
+		}
+	}
+
+	&.right {
+		text-align: right;
+		
+		.wrap-title {
+			.noo-theme-title-bg {
+				right: 0;
+				left: auto;
+				.translate(0, 0);
+			}
+		}
+	}
+
+	&.left {
+		text-align: left;
+
+		.wrap-title {
+			.noo-theme-title-bg {
+				left: 0;
+				right: auto;
+				.translate(0, 0);
+			}
+		}
+	}
+
+}
+
+/** Noo title **/
+.noo-title{
+	@media screen and (max-width: @screen-xs-max) {
+		font-size: 30px !important;
+	}
+	@media screen and (max-width: 479px) {
+		font-size: 24px !important;
+	}
+}
+
+/** Noo sub title */
+.bg-primary-overlay{
+	.noo-sub-title{
+		display: block;
+		margin-top: 15px;
+		font-size: @font-size-large;
+		color: @white;
+		@media screen and (max-width: @screen-xs-max) {
+			font-size: 14px;
+		}
+	}
+}
+
+/** Noo sc caption  */
+@media( min-width: @screen-lg-min ){
+	.noo-sc-caption{
+		&:before{
+			content: attr(data-caption);
+		    position: absolute;
+		    top: 198px;
+		    left: -454px;
+		    font-size: 72px;
+		    color: #fefefe;
+		    text-transform: uppercase;
+		    font-family: @font-heading;
+		    font-weight: @font-weight-semibold;
+		    .rotate(-90deg);
+		    .opacity(0.06);
+		}
+	}
+}

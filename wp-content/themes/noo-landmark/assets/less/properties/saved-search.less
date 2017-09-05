@@ -1,0 +1,76 @@
+/**
+ * Style saved search
+ */
+.noo-box-results-search {
+	background: #fff;
+	border: 1px solid @border-color;
+	padding: 15px;
+	margin-bottom: 30px;
+	.after_cler;
+	> .text {
+		float: left;
+	    font-size: 16px;
+		width: ~"calc(100% - 120px)";
+		> i {
+			margin-right: 6px;
+		}
+	}
+	> .save {
+		font-weight: 600;
+		float: right;
+		width: 120px;
+	    text-align: right;
+	    cursor: pointer;
+	    border: none;
+	    .transition;
+	    > i {
+	    	color: @secondary-color;
+	    	font-size: 16px;
+	    	margin-right: 6px;
+	    }
+	    &:hover {
+	    	color: @secondary-color;
+	    }
+	}
+}
+.user-saved-search {
+	padding: 0;
+}
+.noo-saved-search-item {
+	background: #fff;
+	border-bottom: 1px solid @border-color;
+	padding: 30px 30px 15px 60px;
+	position: relative;
+	h3 {
+		margin: 0 0 5px;
+	    font-size: 18px;
+	    font-weight: 500;
+	}
+	.content {
+
+	}
+	.remove-search {
+		position: absolute;
+		left: 30px;
+		top: 50%;
+		cursor: pointer;
+		color: @border-color;
+		.transition;
+		.translate(0, -50%);
+		&:hover {
+			color: @secondary-color;
+		}
+	}
+	.noo-button {
+		position: absolute;
+		right: 30px;
+		top: 50%;
+		.translate(0, -50%);
+	}
+	&.not_found {
+		padding: 15px 30px;
+	}
+	&:last-child {
+		border-bottom: none;
+	}
+}

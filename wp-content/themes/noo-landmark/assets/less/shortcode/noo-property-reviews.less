@@ -1,0 +1,44 @@
+/**
+ * Style shortcode: Property Reviews use style of Testimonial
+ */
+.noo-testimonial {
+	.style-2 {
+		.testimonial-content {
+			.noo-property-reviews {
+				.box-user {
+					@media( min-width: 480px ){
+						padding-top: 0;
+						.noo-property-title {
+							margin-top: 0;
+						}
+					}
+				}
+			}
+		}
+		.noo-property-title {
+			a {
+				color: @white;
+			}
+		}
+	}
+	.noo-property-title {
+		a {
+			&:hover {
+				color: @secondary-color;
+			}
+		}
+	}
+	.noo-stars-rating{
+		width: 90px;
+		margin: 0 auto;
+		&:before {
+			display: block;
+		}
+	}
+	.style-1 {
+		.noo-testimonial-content {
+			margin-top: 35px;
+		}
+	}
+}
+

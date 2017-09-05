@@ -1,0 +1,24 @@
+/*
+* 8.0 Hacking CSS
+* -----------------------------------------------------------------------------
+*/
+/**
+ * Css for Firefox
+ */
+ @-moz-document url-prefix() { 
+	body {
+		font-weight: @font-weight-small;
+	}
+
+	.wrap-entry {
+		margin: 0 50px -78px;
+	}
+}
+/**
+ * Css for IE
+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	body {
+		font-weight: @font-weight-small;
+	}
+}

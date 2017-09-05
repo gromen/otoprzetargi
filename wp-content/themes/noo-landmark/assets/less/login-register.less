@@ -1,0 +1,211 @@
+/**
+ * Style page login/register
+ */
+.noo-register-member-container,
+.noo-login-member-container,
+.rp-form-login,
+.rp-form-register {
+    background: #fff;
+    border: 1px solid @border-color;
+    padding: 45px 40px;
+    .noo-title,
+    .rp-label {
+	text-align: center;
+	margin: 0 0 40px;
+    }
+}
+
+.noo-register-member-tab {
+    text-align: center;
+    > span {
+	border: 1px solid @border-color;
+	line-height: 24px;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	background: #fff;
+	padding: 20px 30px;
+	width: 35%;
+	color: #515666;
+	border-bottom: none;
+	.transition;
+	&.active,
+	&:hover {
+	    cursor: pointer;
+	    background: @secondary-color;
+	    color: #fff;
+	}
+    }
+    .after_cler;
+}
+
+.noo-register-member-left,
+.noo-login-member,
+.rp-form-login,
+.rp-form-register {
+    .noo-item-wrap,
+    .rp-item-wrap {
+	margin-bottom: 35px;
+	> label {
+	    display: inline-block;
+	    width: 35%;
+	    margin: 0;
+	    text-align: right;
+	    padding-right: 45px;
+	}
+	> input[type="url"],
+	> input[type="number"],
+	> input[type="password"],
+	> input[type="text"] {
+	    color: #515666;
+	    font-size: 14px;
+	    line-height: 24px;
+	    width: 65%;
+	    .placeholder(#8F99B9);
+	}
+	> .notice {
+	    margin-left: 35%;
+	    color: #515666;
+	    font-size: 14px;
+	    line-height: 24px;
+	    padding: 10px 0 0;
+	    > span {
+		display: table;
+	    }
+	}
+	.chosen-container {
+	    float: right;
+	    width: 65% !important;
+	}
+	&#noo-item-type-wrap {
+	    .notice {
+		margin-top: 15px;
+	    }
+	}
+	&#noo-item-email_address-wrap,
+	&#noo-item-confirm_password-wrap {
+	    .notice {
+		display: none;
+	    }
+	}
+	#rp-item-agree-term-of-service {
+	    .translate(0, 5px);
+	}
+	&#noo-item-agree-term-of-service-wrap,
+	&#rp-item-agree-term-of-service-wrap {
+	    float: right;
+	    margin-top: -8px;
+	    width: 65%;
+	    margin-bottom: 0;
+	    .noo-item-checkbox,
+	    .rp-item-checkbox {
+		width: 100%;
+		.checked {
+		    label {
+			background: @secondary-color;
+			border: 1px solid @secondary-color;
+			width: 20px;
+			height: 20px;
+			&:after {
+			    width: 11px;
+			    height: 7px;
+			    top: 3px;
+			    left: 4px;
+			    border-color: #fff;
+			}
+		    }
+		}
+		> label {
+		    margin-left: 13px;
+		    margin-bottom: 0;
+		    .translate(0, 3px);
+		    a {
+			color: @secondary-color;
+			.transition;
+			&:hover {
+			    text-decoration: underline;
+			}
+		    }
+		}
+	    }
+	}
+	&.validate-error {
+	    &#noo-item-agree-term-of-service-wrap,
+	    &#rp-item-agree-term-of-service-wrap {
+		&:before {
+		    content: none;
+		}
+	    }
+	    .noo-item-checkbox,
+	    .rp-item-checkbox {
+		.checked {
+		    label {
+			background: #fb4040 !important;
+			border: 1px solid #fb4040 !important;
+		    }
+		}
+		> label {
+		    color: #fb4040;
+		}
+	    }
+	}
+    }
+}
+
+.noo-register-member-right {
+    .noo-register-member-notice {
+	background: #fbfbfe;
+	border: 1px solid @border-color;
+	padding: 25px 40px;
+	max-width: 370px;
+	margin: auto;
+	> h3 {
+	    color: #515666;
+	    font-size: 14px;
+	    line-height: 24px;
+	    margin: 0 0 8px;
+	    font-weight: 500;
+	    font-family: @font-body;
+	}
+	ul.noo-register-member-list {
+	    list-style: none;
+	    margin: 0;
+	    padding: 0;
+	    li {
+		color: #515666;
+		font-size: 14px;
+		line-height: 24px;
+		margin-left: 15px;
+		position: relative;
+		&:before {
+		    content: '';
+		    background: @secondary-color;
+		    height: 6px;
+		    width: 6px;
+		    display: inline-block;
+		    position: absolute;
+		    top: 8px;
+		    left: -15px;
+		    .border-radius(50%);
+		}
+	    }
+	}
+    }
+}
+
+.noo-register-member-action,
+.noo-login-member-action,
+.rp-login-member-action,
+.rp-register-member-action {
+    text-align: center;
+    .noo-button {
+	padding: 12px 30px;
+	> i {
+	    top: 17px;
+	}
+    }
+    .notice {
+	display: none;
+	padding: 15px;
+    }
+}

@@ -1,0 +1,180 @@
+/**
+ * Style shortcode: Pricing Table
+ */
+.noo-pricing-table {
+
+}
+
+.noo-pricing-table-item-wrap {
+    padding: 30px 15px;
+    &.is_featured {
+	.noo-pricing-table-item {
+	    .translate(0, -30px);
+	    .pricing-header {
+		background: darken(@secondary-color, 10%);
+		.pricing-title {
+		    color: #fff;
+		}
+		&:before,
+		&:after {
+		    background: darken(@secondary-color, 10%);
+		}
+	    }
+	    ul.pricing-body {
+		padding: 58px 35px 20px;
+		li {
+		    line-height: 50px;
+		}
+	    }
+	    .pricing-action {
+		padding: 5px 0 40px;
+	    }
+	}
+    }
+}
+
+.noo-pricing-table-item {
+    border: 1px solid @border-color;
+    text-align: center;
+    .transition(all .4s ease 0s);
+    .pricing-header {
+	background: @brand-primary;
+	color: #fff;
+	padding: 25px 25px 0;
+	text-transform: uppercase;
+	position: relative;
+	.pricing-title {
+	    color: @secondary-color;
+	    font-size: 26px;
+	    font-weight: 600;
+	    margin: 0;
+	    padding: 0;
+	    margin-bottom: 30px;
+	}
+	.noo-price,
+	.property-price {
+	    font-size: 50px;
+	    line-height: 26px;
+	    font-weight: 600;
+	    position: relative;
+	    .format_price {
+		font-size: 26px;
+		position: absolute;
+		top: -10px;
+		.translate(-6px, 0);
+	    }
+	}
+	.noo-after-price {
+	    margin: 10px 0 0;
+	    font-weight: 100;
+	}
+	.pricing-line {
+	    &:before {
+		content: '';
+		position: absolute;
+		bottom: -18px;
+		left: 0;
+		height: 10px;
+		width: 51%;
+		background: @secondary-color;
+		.transform(skew(0deg, 12deg));
+	    }
+	    &:after {
+		content: '';
+		position: absolute;
+		bottom: -18px;
+		right: 0;
+		height: 10px;
+		width: 50%;
+		background: @secondary-color;
+		.transform(skew(0deg, -12deg));
+	    }
+	}
+	&:before {
+	    content: '';
+	    position: absolute;
+	    bottom: -11px;
+	    left: 0;
+	    height: 25px;
+	    width: 51%;
+	    background: @brand-primary;
+	    .transform(skew(0deg, 12deg));
+	}
+	&:after {
+	    content: '';
+	    position: absolute;
+	    bottom: -8px;
+	    right: 0;
+	    height: 25px;
+	    width: 50%;
+	    background: @brand-primary;
+	    .transform(skew(0deg, -12deg));
+	}
+    }
+    ul.pricing-body {
+	background: #fff;
+	list-style: none;
+	padding: 45px 35px 20px;
+	margin: 0;
+	li {
+	    border-bottom: 1px solid @border-color;
+	    color: #515666;
+	    font-size: 14px;
+	    font-weight: 400;
+	    line-height: 40px;
+	    span:not(.unlimited) {
+		color: @secondary-color;
+		font-size: 14px;
+		line-height: 40px;
+		font-weight: 600;
+	    }
+	    &:last-child {
+		border-bottom: none;
+	    }
+	}
+    }
+    .pricing-action {
+	background: #fff;
+	padding: 0 0 40px;
+	.notice {
+	    font-size: 13px;
+	    padding: 6px 0;
+	}
+    }
+    &:hover {
+	.box-shadow(0 0 30px 3px fade(#000, 12%));
+	.translate(0, -15px);
+    }
+}
+
+@media (max-width: 767px) {
+    .noo-pricing-table-item-wrap {
+	&.is_featured {
+	    .noo-pricing-table-item {
+		.translate(0, 0);
+	    }
+	}
+    }
+
+    .noo-pricing-table-item {
+	.pricing-header {
+	    .pricing-line {
+		&:before,
+		&:after {
+		    bottom: -21px;
+		    width: 50%;
+		    z-index: 1;
+		}
+	    }
+	    &:before,
+	    &:after {
+		bottom: -15px;
+		height: 35px;
+		width: 50%;
+	    }
+	}
+	ul.pricing-body {
+	    padding: 60px 35px 20px;
+	}
+    }
+}

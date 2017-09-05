@@ -1,0 +1,93 @@
+/**
+ * Style widget: RP - Featured Property
+ */
+.widget_rp_featured_property {
+    .rp-thumbnail-wrap {
+	position: relative;
+	.property-featured {
+	    position: absolute;
+	    top: 15px;
+	    left: 15px;
+	    z-index: 3;
+	    font-size: 10px;
+	    line-height: 11px;
+	    margin: 0;
+	    font-weight: 500;
+	    text-transform: uppercase;
+	    padding: 3px 6px;
+	    vertical-align: top;
+	    color: #fff;
+	    white-space: nowrap;
+	    background-color: @special-color;
+	    .border-radius(.25em);
+	}
+	.property-offers {
+	    position: absolute;
+	    right: 15px;
+	    top: 15px;
+	    z-index: 3;
+	    .property-offers-item {
+		font-size: 10px;
+		line-height: 11px;
+		margin: 0 0 0 5px;
+		font-weight: 500;
+		text-transform: uppercase;
+		padding: 3px 6px;
+		vertical-align: top;
+		color: #fff;
+		white-space: nowrap;
+		.border-radius(.25em);
+	    }
+	}
+	.rp-photo {
+	    position: absolute;
+	    bottom: 15px;
+	    right: 15px;
+	    color: #fff;
+	    font-size: 12px;
+	    margin: 0;
+	}
+	.property-price {
+	    position: absolute;
+	    bottom: 15px;
+	    left: 15px;
+	    font-size: 16px;
+	    line-height: 16px;
+	    margin: 0;
+	    font-weight: 700;
+	    text-transform: inherit;
+	    text-align: inherit;
+	    color: #fff;
+	}
+    }
+    .rp-featured-property-wrap {
+	.prev {
+	    position: absolute;
+	    top: 50%;
+	    left: 30px;
+	    color: #fff;
+	    font-size: 25px;
+	    z-index: 9;
+	    cursor: pointer;
+	    .opacity(.8);
+	    .translate(0, -50%);
+	    &:hover {
+		.opacity(1);
+	    }
+	}
+	.next {
+	    position: absolute;
+	    top: 50%;
+	    right: 30px;
+	    color: #fff;
+	    font-size: 25px;
+	    cursor: pointer;
+	    z-index: 9;
+	    .opacity(.8);
+	    .translate(0, -50%);
+	    &:hover {
+		.opacity(1);
+	    }
+	}
+    }
+}

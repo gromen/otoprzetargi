@@ -1,0 +1,37 @@
+/**
+ * Style shortcode: Single Agent
+ */
+.noo-about-agent {
+	.noo-agent-action {
+		border-top: 1px solid @border-color;
+		padding: 25px 0;
+		display: table;
+	    width: 100%;
+	    > div {
+	    	&:first-child {
+	    		padding-left: 0;
+	    	}
+	    	&:last-child {
+	    		padding-right: 0;
+	    	}
+	    }
+	    .agent-social {
+	    	a {
+				&:last-child {
+					margin-right: 0;
+				}
+	    	}
+	    }
+	}
+	@media (max-width: 767px) {
+		.noo-agent-action {
+			> div:last-child {
+			    margin-top: 20px;
+			    text-align: center;
+			}
+			> div:first-child {
+				text-align: center;	
+			}
+		}
+	}
+}

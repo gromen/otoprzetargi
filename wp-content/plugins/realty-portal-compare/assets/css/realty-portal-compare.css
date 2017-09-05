@@ -1,0 +1,187 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.rp-compare-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.rp-compare-wrap .rp-compare-item .content-thumb img {
+  width: 100%;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.rp-compare-wrap .rp-compare-item .content-thumb:hover img {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.rp-compare-wrap .rp-compare-item .rp-compare-title {
+  color: #3a3f4c;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 15px 0 10px;
+}
+.rp-compare-wrap .rp-compare-item .rp-compare-title a {
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.rp-compare-wrap .rp-compare-item .property-price {
+  color: #f9a11b;
+  margin: 0 0 5px;
+}
+.rp-compare-wrap .rp-compare-item .property-price .amount {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.rp-compare-wrap .rp-compare-item-detail {
+  color: #515666;
+  font-size: 16px;
+  line-height: 24px;
+}
+.rp-compare-wrap .rp-compare-item-detail > label {
+  font-weight: 500;
+  display: inline-block;
+  margin-right: 6px;
+}
+.rp-compare-list {
+  margin: 30px 0 0;
+  border: 1px solid #e5e5f8;
+}
+.rp-compare-list .compare-list-item {
+  padding: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.rp-compare-list .compare-list-item:nth-child(odd) {
+  background: #fff;
+}
+.rp-compare-list .compare-list-item:nth-child(even) {
+  background: #e5e5f8;
+}
+.rp-compare-list .item-label {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.rp-compare-list .item-value {
+  font-size: 16px;
+  line-height: 24px;
+}
+.rp-compare-list .item-value .ion-checkmark {
+  color: #f9a11b;
+}
+.rp-compare-list .item-value .ion-close {
+  color: #fb4040;
+}
+.compare-panel {
+  width: 240px;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  z-index: 99999;
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.compare-panel.panel-open {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.compare-panel.panel-open .rp-icon-angle-left:before {
+  content: "\f105";
+}
+.panel-btn {
+  padding: 0;
+  position: absolute;
+  border-radius: 0;
+  font-size: 21px;
+  height: 63px;
+  left: -35px;
+  top: 230px;
+  width: 35px;
+}
+.compare-panel-header {
+  padding: 20px 15px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.compare-panel-header .title {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #777;
+}
+.compare-panel-body {
+  padding: 30px;
+}
+.compare-thumb-main {
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: 20px;
+}
+.compare-thumb-main:after {
+  clear: both;
+  display: block;
+  content: '';
+}
+.compare-thumb-main .compare-thumb {
+  position: relative;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 80px;
+  width: 95px;
+  float: left;
+  margin-bottom: 10px;
+}
+.compare-thumb-main .thumb-inner-empty {
+  height: 85px;
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+  border: 2px dashed #ccc;
+}
+.compare-thumb-main .btn-trash {
+  position: absolute;
+  top: -6px;
+  right: 0px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  line-height: 14px;
+}
+.panel-btn-close {
+  cursor: pointer;
+}
+.compare-thumb {
+  margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .compare-thumb {
+    margin-bottom: 10px;
+  }
+}
+.compare-caption .compare-price {
+  color: #00aeef;
+}
+.off-canvas-enabled .compare-panel {
+  display: none;
+}
+
+/*# sourceMappingURL=realty-portal-compare.css.map */

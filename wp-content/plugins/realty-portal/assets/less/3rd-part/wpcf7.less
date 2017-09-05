@@ -1,0 +1,86 @@
+/**
+ * Style support plugin contact form 7
+ */
+.rp-box-contact-form-7 {
+    p {
+	margin-bottom: 15px;
+	label {
+	    color: #fff;
+	    font-size: 13px;
+	    width: 100%;
+	    font-weight: 400;
+	}
+	span {
+	    .wpcf7-not-valid-tip {
+		color: @secondary-color;
+		font-size: 12px;
+		font-style: italic;
+		padding: 6px 0 0;
+	    }
+	    &:after {
+		// content: '';
+		position: absolute;
+		bottom: -3px;
+		left: 0;
+		background: #fbb040;
+		height: 1px;
+		width: 30%;
+		display: inline-block;
+		.opacity(0);
+		.transition(all .4s ease 0s);
+	    }
+	    &:focus,
+	    &:hover {
+		&:after {
+		    width: 100%;
+		    .opacity(1);
+		}
+	    }
+	}
+	input[type="text"],
+	input[type="email"],
+	textarea {
+	    background: transparent;
+	    border: none;
+	    border-bottom: 1px solid #ccc;
+	    .box-shadow(none);
+	    .transition(all .4s ease 0s);
+	    &:focus {
+		outline: none;
+		border-bottom: 1px solid @secondary-color;
+	    }
+	}
+	textarea {
+	    width: 100%;
+	}
+    }
+    .wpcf7-submit {
+	background: @secondary-color;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 14px 30px;
+	border: none;
+	margin-top: 10px;
+	.box-shadow(none);
+	.transition(all .4s ease 0s);
+	> i {
+	    top: 18px;
+	}
+	&:hover {
+	    background: darken(@secondary-color, 15%);
+	}
+	&:focus {
+	    outline: none;
+	}
+    }
+    .wpcf7-response-output {
+	border: 1px solid @secondary-color;
+	color: #fff;
+	margin: 0;
+    }
+    div.wpcf7 img.ajax-loader {
+	margin-left: -25px;
+    }
+}

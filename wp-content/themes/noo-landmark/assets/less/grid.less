@@ -1,0 +1,143 @@
+//
+// Grid system
+// --------------------------------------------------
+
+
+// Container widths
+//
+// Set the container width, and override it for fixed navbars in media queries.
+
+.noo-container {
+  .noo-container-fixed();
+
+  @media (min-width: @screen-sm-min) {
+    max-width: @container-sm;
+    width: 100%;
+  }
+  @media (min-width: @screen-md-min) {
+    max-width: @container-md;
+    width: 100%;
+  }
+  @media (min-width: @screen-lg-min) {
+    max-width: @container-lg;
+    width: 100%;
+  }
+}
+
+// Set padding for vc_column-inner when elenment VC doesn't use container
+.noo-container-fluid {
+  & > .vc_row-fluid {
+    & > div.vc_col-sm-12 {
+      & > .vc_column-inner {
+        padding: 0;
+      }
+    }
+  }
+}
+
+div.vc_row-has-fill {
+  &>.vc_column_container {
+    &>.vc_column-inner {
+      padding-top: 30px;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+}
+
+
+// Fluid container
+//
+// Utilizes the mixin meant for fixed width containers, but without any defined
+// width for fluid, full width layouts.
+
+.noo-container-fluid {
+  .noo-container-fixed();
+}
+
+
+// Row
+//
+// Rows contain and clear the floats of your columns.
+
+.noo-row {
+  .make-row();
+}
+
+
+// Columns
+//
+// Common styles for small and large grid columns
+
+.make-grid-columns();
+
+
+// Extra small grid
+//
+// Columns, offsets, pushes, and pulls for extra small devices like
+// smartphones.
+
+.make-grid(xs);
+
+
+// Small grid
+//
+// Columns, offsets, pushes, and pulls for the small device range, from phones
+// to tablets.
+
+@media (min-width: @screen-sm-min) {
+  .make-grid(sm);
+}
+
+
+// Medium grid
+//
+// Columns, offsets, pushes, and pulls for the desktop device range.
+
+@media (min-width: @screen-md-min) {
+  .make-grid(md);
+}
+
+
+// Large grid
+//
+// Columns, offsets, pushes, and pulls for the large desktop device range.
+
+@media (min-width: @screen-lg-min) {
+  .make-grid(lg);
+}
+
+/* 5 Columns */
+
+.noo-xs-15,
+.noo-sm-15,
+.noo-md-15,
+.noo-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.noo-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .noo-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .noo-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .noo-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}

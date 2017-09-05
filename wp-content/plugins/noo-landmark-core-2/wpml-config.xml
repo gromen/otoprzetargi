@@ -1,0 +1,53 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">stock</custom-field>
+        <custom-field action="copy">price</custom-field>
+        <custom-field action="translate">before_price</custom-field>
+        <custom-field action="translate">after_price</custom-field>
+        <custom-field action="copy">document</custom-field>
+        <custom-field action="copy">video</custom-field>
+        <custom-field action="copy">address</custom-field>
+        <custom-field action="copy">country</custom-field>
+        <custom-field action="copy">city</custom-field>
+        <custom-field action="copy">neighborhood</custom-field>
+        <custom-field action="copy">zip</custom-field>
+        <custom-field action="copy">state</custom-field>
+        <custom-field action="copy">latitude</custom-field>
+        <custom-field action="copy">longitude</custom-field>
+        <custom-field action="copy">property_photo</custom-field>
+        <custom-field action="copy">floor_plan</custom-field>
+        <custom-field action="copy">_bedrooms</custom-field>
+        <custom-field action="copy">_bathrooms</custom-field>
+        <custom-field action="copy">_garages</custom-field>
+        <custom-field action="copy">_year_built</custom-field>
+        <custom-field action="copy">_area</custom-field>
+        <custom-field action="copy">_flooring</custom-field>
+        <custom-field action="copy">agent_responsible</custom-field>
+        <custom-field action="copy">user_name</custom-field>
+        <custom-field action="copy">user_password</custom-field>
+        <custom-field action="copy">_position</custom-field>
+        <custom-field action="copy">_phone</custom-field>
+        <custom-field action="copy">_mobile</custom-field>
+        <custom-field action="copy">_email</custom-field>
+        <custom-field action="copy">_description</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">noo_agent</custom-type>
+        <custom-type translate="1">noo_property</custom-type>
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">property_type</taxonomy>
+        <taxonomy translate="1">property_status</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="property_setting" >
+            <key name="property_area_unit" />
+        </key>
+        <key name="theme_mods_noo-landmark">
+           <key name="noo_bottom_bar_content" />
+        </key>
+        <key name="theme_mods_noo-landmark-child">
+           <key name="noo_bottom_bar_content" />
+        </key>
+    </admin-texts>
+</wpml-config>

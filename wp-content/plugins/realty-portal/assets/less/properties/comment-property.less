@@ -1,0 +1,125 @@
+/**
+ * Style box comment property
+ */
+.rp-property-comment {
+    .rp-property-list-comment {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+    }
+    .form-comment {
+	.rp-title-box {
+	    margin: 20px 0;
+	}
+    }
+    .rp-property-item-comment {
+	.item-comment-header {
+	    .after_cler();
+	}
+    }
+    .item-comment-header-left {
+	width: 75%;
+	float: left;
+	.name-user-comment {
+	    color: #515666;
+	    font-size: 16px;
+	    line-height: 24px;
+	    font-weight: 600;
+	    margin: 0 0 5px;
+	}
+	time {
+	    color: #abb2cc;
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+    }
+    .item-comment-header-right {
+	float: right;
+	width: 25%;
+    }
+    .item-comment-content {
+	padding: 10px 0 25px;
+    }
+    .rp-loadmore-comment {
+	position: relative;
+	border-bottom: 1px solid @border-color;
+	text-align: center;
+	> span {
+	    color: #3a3f4c;
+	    font-size: 14px;
+	    line-height: 24px;
+	    letter-spacing: .2px;
+	    font-weight: 500;
+	    text-transform: uppercase;
+	    display: inline-block;
+	    background: #fff;
+	    padding: 0 20px;
+	    cursor: pointer;
+	    .transition(all .4s ease 0s);
+	    .translate(0, 12px);
+	    i {
+		margin-left: 6px;
+		font-size: 12px;
+	    }
+	    &:hover {
+		color: @secondary-color;
+	    }
+	}
+    }
+    .rp-property-form-comment {
+	.rp-property-form-item {
+	    position: relative;
+	    &.validate-error {
+		&:after {
+		    width: 100%;
+		    .opacity(1);
+		}
+		&:before {
+		    content: "\f101";
+		    font-family: "rpicons";
+		    position: absolute;
+		    top: 8px;
+		    right: 8px;
+		    left: auto;
+		    background: transparent;
+		    width: auto;
+		    height: auto;
+		    color: @secondary-color;
+		    .opacity(1);
+		    .transition(all 0s ease 0s);
+		}
+	    }
+	}
+    }
+    @media (max-width: 767px) {
+	.rp-loadmore-comment {
+	    margin-bottom: 40px;
+	}
+    }
+}
+
+@media (max-width: 767px) {
+    .rp-property-comment {
+	padding: 20px 0;
+	.rp-property-box {
+	    .rp-box-title {
+		font-size: 20px;
+		padding: 0 0 15px 0;
+	    }
+	}
+	.item-comment-header-right,
+	.item-comment-header-left {
+	    width: 100%;
+	    float: none;
+	}
+    }
+}
+
+@keyframes rp-full-width {
+    0%, 100% {
+	width: 0%;
+    }
+    50% {
+	width: 31%;
+    }
+}

@@ -1,0 +1,98 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Realty Portal: My Favorites\n"
+"POT-Creation-Date: 2017-08-17 09:37+0700\n"
+"PO-Revision-Date: 2017-05-05 14:33+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: realty-portal-my-favorites.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-my-favorites-process.php:32 realty-portal-my-favorites.php:199
+msgid "My Favorites"
+msgstr ""
+
+#: includes/class-my-favorites-process.php:80
+msgid "View favorites"
+msgstr ""
+
+#: includes/class-my-favorites-process.php:80
+msgid "Add to favorites"
+msgstr ""
+
+#: includes/class-my-favorites-process.php:118
+msgid "Security Breach! Please contact admin!"
+msgstr ""
+
+#: includes/class-my-favorites-process.php:143
+msgid "Add favorites success!"
+msgstr ""
+
+#: includes/class-my-favorites-process.php:150
+msgid "Remove favorites success!"
+msgstr ""
+
+#: includes/class-my-favorites-process.php:158
+msgid "Not empty id property, please check again!"
+msgstr ""
+
+#: realty-portal-my-favorites.php:83
+msgid ""
+"The <strong>Realty Portal: My Favorites</strong> only works after <strong>Realty "
+"Portal: Agent</strong> is activated, please activate it"
+msgstr ""
+
+#: realty-portal-my-favorites.php:170
+msgctxt "Page slug"
+msgid "my-favorites"
+msgstr ""
+
+#: realty-portal-my-favorites.php:171
+msgctxt "Page title"
+msgid "My Favorites"
+msgstr ""
+
+#: realty-portal-my-favorites.php:229
+msgid "RP My Favorites"
+msgstr ""
+
+#: realty-portal-my-favorites.php:232
+msgid "Agent"
+msgstr ""
+
+#: templates/my-favorites.php:106
+msgid "Remove"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Realty Portal: My Favorites"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://nootheme.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The add-on allows user to save your properties as favorite. Work with any theme!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NooTeam"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://nootheme.com/"
+msgstr ""

@@ -1,0 +1,116 @@
+/**
+ * Style page agent dashboard
+ */
+.noo-agent-dashboard {
+    form.noo-list-property-action {
+	margin-bottom: 30px;
+	select {
+	    display: inline-block;
+	    border-color: @border-color;
+	    padding: 8px 15px;
+	    width: 185px;
+	    height: 42px;
+	    text-indent: 6px;
+	    .border-radius(0);
+	    &:focus {
+		outline: none;
+	    }
+	}
+	.noo-box-search {
+	    display: inline-block;
+	    position: relative;
+	    margin-right: 15px;
+	    input[type="text"] {
+		border: 1px solid @border-color;
+		padding: 8px 15px;
+		margin-right: 15px;
+		&:focus {
+		    outline: none;
+		}
+	    }
+	    button {
+		border: none;
+		padding: 8px 15px;
+		background: transparent;
+		position: absolute;
+		right: 15px;
+		top: 0;
+		line-height: 28px;
+		i {
+		    color: @brand-primary;
+		}
+		&:focus {
+		    outline: none;
+		}
+	    }
+	}
+	.results {
+	    margin-left: 15px;
+	    display: none;
+	    > .number {
+		color: @secondary-color;
+		font-weight: 500;
+	    }
+	}
+    }
+}
+
+@media (max-width: 767px) {
+    .noo-agent-dashboard {
+	.noo-list-property {
+	    .noo-property-item-wrap {
+		.noo-action {
+		    .noo-price,
+		    .noo-action-post,
+		    .property-price {
+			float: none;
+			width: 100%;
+		    }
+		    .noo-price,
+		    .property-price {
+			font-size: 17px;
+			padding: 12px 0 10px 13px;
+		    }
+		}
+		.noo-action-post {
+		    border-bottom: 1px solid @border-color;
+		    span {
+			border: none;
+			width: 25%;
+			&:first-child {
+			    border-left: none;
+			}
+		    }
+		    > span {
+			&:last-child {
+			    border-right: none;
+			}
+		    }
+		}
+		.noo-right {
+		    padding: 15px;
+		}
+		.noo-genarel {
+		    .noo-title {
+			margin: 0 0 5px;
+			font-size: 20px !important;
+		    }
+		}
+	    }
+	    &.style-grid {
+		.noo-property-item-wrap {
+		    .noo-action-post {
+			.noo-property-sharing {
+			    width: 25%;
+			    > span {
+				> i {
+				    width: 100%;
+				}
+			    }
+			}
+		    }
+		}
+	    }
+	}
+    }
+}

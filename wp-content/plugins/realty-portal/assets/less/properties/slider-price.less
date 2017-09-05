@@ -1,0 +1,191 @@
+/* Interaction Cues
+----------------------------------*/
+.rp-control .ui-state-disabled {
+    cursor: default !important;
+}
+
+.rp-control .ui-slider {
+    position: relative;
+    text-align: left;
+}
+
+.rp-control .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 1;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+}
+
+.rp-control .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+
+/* For IE8 - See #6727 */
+.rp-control .ui-slider.ui-state-disabled .ui-slider-handle,
+.rp-control .ui-slider.ui-state-disabled .ui-slider-range {
+    filter: inherit;
+}
+
+.rp-control .ui-slider-horizontal {
+    height: 4px;
+}
+
+.rp-control .ui-slider-horizontal .ui-slider-handle {
+    top: -.3em;
+    margin-left: -.6em;
+}
+
+.rp-control .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+
+.rp-control .ui-slider-horizontal .ui-slider-range-min {
+    left: 0 !important;
+}
+
+.rp-control .ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+
+/* Component containers
+----------------------------------*/
+.rp-control .ui-widget {
+    font-size: 9px;
+}
+
+.rp-control .ui-widget .ui-widget {
+    font-size: 10px;
+}
+
+.rp-control .ui-widget-content {
+    background: @border-color;
+}
+
+.rp-control .ui-slider.ui-widget-content .ui-widget-header {
+    background: @secondary-color !important;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Interaction states
+----------------------------------*/
+.rp-control .ui-state-default,
+.rp-control .ui-widget-content .ui-state-default,
+.rp-control .ui-widget-header .ui-state-default {
+    border: 1px solid @secondary-color;
+    background: @secondary-color;
+    font-weight: bold;
+    color: #1c94c4;
+}
+
+.rp-control .ui-state-default a,
+.rp-control .ui-state-default a:link,
+.rp-control .ui-state-default a:visited {
+    color: #1c94c4;
+    text-decoration: none;
+}
+
+.rp-control .ui-state-hover,
+.rp-control .ui-widget-content .ui-state-hover,
+.rp-control .ui-widget-header .ui-state-hover,
+.rp-control .ui-state-focus,
+.rp-control .ui-widget-content .ui-state-focus,
+.rp-control .ui-widget-header .ui-state-focus,
+.rp-control .ui-state-active,
+.rp-control .ui-widget-content .ui-state-active,
+.rp-control .ui-widget-header .ui-state-active {
+    border: 1px solid @brand-primary;
+    background: @brand-primary;
+    cursor: pointer;
+    &:focus {
+	outline: none;
+    }
+}
+
+.rp-control .ui-state-hover a,
+.rp-control .ui-state-hover a:hover,
+.rp-control .ui-state-hover a:link,
+.rp-control .ui-state-hover a:visited,
+.rp-control .ui-state-focus a,
+.rp-control .ui-state-focus a:hover,
+.rp-control .ui-state-focus a:link,
+.rp-control .ui-state-focus a:visited {
+    color: #c77405;
+    text-decoration: none;
+}
+
+.rp-control .ui-state-active a,
+.rp-control .ui-state-active a:link,
+.rp-control .ui-state-active a:visited {
+    color: #eb8f00;
+    text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.rp-control .ui-state-highlight,
+.rp-control .ui-widget-content .ui-state-highlight,
+.rp-control .ui-widget-header .ui-state-highlight {
+    border: 1px solid #fed22f;
+    background: #ffe45c url("images/ui-bg_highlight-soft_75_ffe45c_1x100.png") 50% top repeat-x;
+    color: #363636;
+}
+
+.rp-control .ui-state-highlight a,
+.rp-control .ui-widget-content .ui-state-highlight a,
+.rp-control .ui-widget-header .ui-state-highlight a {
+    color: #363636;
+}
+
+.rp-control .ui-state-error,
+.rp-control .ui-widget-content .ui-state-error,
+.rp-control .ui-widget-header .ui-state-error {
+    border: 1px solid #cd0a0a;
+    background: #b81900 url("images/ui-bg_diagonals-thick_18_b81900_40x40.png") 50% 50% repeat;
+    color: #fff;
+}
+
+.rp-control .ui-state-error a,
+.rp-control .ui-widget-content .ui-state-error a,
+.rp-control .ui-widget-header .ui-state-error a {
+    color: #fff;
+}
+
+.rp-control .ui-state-error-text,
+.rp-control .ui-widget-content .ui-state-error-text,
+.rp-control .ui-widget-header .ui-state-error-text {
+    color: #fff;
+}
+
+.rp-control .ui-priority-primary,
+.rp-control .ui-widget-content .ui-priority-primary,
+.rp-control .ui-widget-header .ui-priority-primary {
+    font-weight: bold;
+}
+
+.rp-control .ui-priority-secondary,
+.rp-control .ui-widget-content .ui-priority-secondary,
+.rp-control .ui-widget-header .ui-priority-secondary {
+    opacity: .7;
+    filter: Alpha(Opacity=70);
+    font-weight: normal;
+}
+
+.rp-control .ui-state-disabled,
+.rp-control .ui-widget-content .ui-state-disabled,
+.rp-control .ui-widget-header .ui-state-disabled {
+    opacity: .35;
+    filter: Alpha(Opacity=35);
+    background-image: none;
+}
+
+.rp-control .ui-state-disabled .ui-icon {
+    filter: Alpha(Opacity=35); /* For IE8 - See #6059 */
+}

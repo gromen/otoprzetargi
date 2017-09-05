@@ -1,0 +1,179 @@
+/**
+ * Noo Progress
+ */
+.noo-progress {
+	.noo-progress-header {
+		margin-bottom: 45px;
+		.noo-title{
+			font-size: 32px;
+			margin-bottom: 22px;
+			color: @brand-primary;
+		}
+		@media (max-width: 479px ) {
+			margin-bottom: 0px;
+			.noo-title {
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	.noo-progress-bar {
+		.noo-single-bar {
+			background-color: #fff;
+			margin-top: 34px;
+			margin-bottom: 46px;
+		    border: 1px solid #e5e5f8;
+	        .box-shadow(inset 1px 2px 8px -2px fade(@black, 12%));
+			position: relative;
+			height: 8px;
+			width: 100%;
+			.border-radius(8px);
+			
+			&:last-child {
+				
+				margin-bottom: 0;
+			}
+
+			.label-bar {
+				padding: 0;
+
+				.noo-progress-label {
+					.translate(0, -25px);
+					display: block;
+					font-size: 12px;
+					font-weight: @font-weight-medium;
+					text-transform: uppercase;
+				}
+
+				.noo-label-units {
+					position: absolute;
+					right: 0;
+					top: -25px;
+					display: inline-block;
+					font-size: 12px;
+					text-transform: uppercase;
+					font-weight: @font-weight-medium;
+					padding: 0;
+					line-height: 24px;
+				}
+			}
+
+			.noo-bar {
+				display: block;
+				position: absolute;
+				height: calc(~"100% + 2px");
+				width: 100%;
+				background-color: @secondary-color;
+				top: -1px;
+				left: -1px;
+				.transition(width 1s linear);
+				.border-radius(8px);
+			}
+		}
+
+		@media screen and (max-width: 479px) {
+			
+			.noo-single-bar {
+				width: 100%;
+				margin-bottom: 35px;
+				margin-top: 30px;
+				.label-bar {
+					.noo-label-units {
+						right: 0px;
+						top: -28px;
+					}
+				}
+			}
+
+		}
+	}
+	&.has-image{
+		padding-left: 310px;
+		position: relative;
+		img {
+			max-width: 310px;
+			height: auto;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+		}
+
+		@media ( max-width: @screen-sm-max ){
+			padding-left: 240px;
+			img {
+    			max-width: 230px;
+    			left: 0;
+    			bottom: 0;
+    		}
+		}
+
+		@media ( max-width: 479px ){
+			padding: 0;
+    		img {
+    			display: none;
+    		}
+		}
+	}
+}
+
+.loadSkill {
+	-webkit-animation-name: loadSkill;
+	animation-name: loadSkill;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.animated.flip {
+  -webkit-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-animation-name: flip;
+  animation-name: flip;
+}
+
+/**
+* loadSkill
+*/
+
+@-webkit-keyframes loadSkill {
+	from {
+		width: 0;
+	}
+	to {
+	    width: 100%;
+	}
+}
+@-moz-keyframes loadSkill {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+@-ms-keyframes loadSkill {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+@keyframes loadSkill {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}

@@ -1,0 +1,356 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Realty Portal: Advanced Search\n"
+"POT-Creation-Date: 2017-09-01 14:00+0700\n"
+"PO-Revision-Date: 2017-05-05 14:33+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: realty-portal-advanced-search.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-advanced-search-dashboard.php:32
+msgid "Advanced Search"
+msgstr ""
+
+#: includes/class-advanced-search-dashboard.php:47
+msgid "Search Field Position"
+msgstr ""
+
+#: includes/class-advanced-search-dashboard.php:52
+msgid "Position #1"
+msgstr ""
+
+#: includes/class-advanced-search-dashboard.php:59
+msgid "Position #2"
+msgstr ""
+
+#: includes/class-advanced-search-dashboard.php:66
+msgid "Position #3"
+msgstr ""
+
+#: includes/class-advanced-search-dashboard.php:73
+msgid "Position #4"
+msgstr ""
+
+#: includes/class-advanced-search-dashboard.php:80
+msgid "Position #5"
+msgstr ""
+
+#: includes/class-advanced-search-dashboard.php:87
+msgid "Position #6"
+msgstr ""
+
+#: includes/class-advanced-search-dashboard.php:94
+msgid "Position #7"
+msgstr ""
+
+#: includes/class-advanced-search-dashboard.php:101
+msgid "Position #8"
+msgstr ""
+
+#: includes/class-advanced-search-shortcode.php:77
+#: realty-portal-advanced-search.php:436
+msgid "More Filters"
+msgstr ""
+
+#: includes/class-advanced-search-shortcode.php:78
+#: realty-portal-advanced-search.php:446
+msgid "Search Property"
+msgstr ""
+
+#: includes/class-advanced-search-widgets.php:17
+#: includes/class-advanced-search-widgets.php:19
+msgid "RP - Advanced Search Property"
+msgstr ""
+
+#: includes/class-advanced-search-widgets.php:53
+msgid "Search"
+msgstr ""
+
+#: includes/class-advanced-search-widgets.php:92
+#: realty-portal-advanced-search.php:328
+msgid "Title"
+msgstr ""
+
+#: includes/class-advanced-search-widgets.php:104
+#: includes/class-advanced-search-widgets.php:118
+#: includes/class-advanced-search-widgets.php:132
+#: includes/class-advanced-search-widgets.php:146
+#: includes/class-advanced-search-widgets.php:160
+#: includes/class-advanced-search-widgets.php:174
+#: includes/class-advanced-search-widgets.php:188
+#: includes/class-advanced-search-widgets.php:202
+msgid "None"
+msgstr ""
+
+#: includes/class-advanced-search-widgets.php:105
+#: realty-portal-advanced-search.php:344
+msgid "Option 1"
+msgstr ""
+
+#: includes/class-advanced-search-widgets.php:119
+#: realty-portal-advanced-search.php:354
+msgid "Option 2"
+msgstr ""
+
+#: includes/class-advanced-search-widgets.php:133
+#: realty-portal-advanced-search.php:364
+msgid "Option 3"
+msgstr ""
+
+#: includes/class-advanced-search-widgets.php:147
+#: realty-portal-advanced-search.php:374
+msgid "Option 4"
+msgstr ""
+
+#: includes/class-advanced-search-widgets.php:161
+#: realty-portal-advanced-search.php:384
+msgid "Option 5"
+msgstr ""
+
+#: includes/class-advanced-search-widgets.php:175
+#: realty-portal-advanced-search.php:394
+msgid "Option 6"
+msgstr ""
+
+#: includes/class-advanced-search-widgets.php:189
+#: realty-portal-advanced-search.php:404
+msgid "Option 7"
+msgstr ""
+
+#: includes/class-advanced-search-widgets.php:203
+#: realty-portal-advanced-search.php:414
+msgid "Option 8"
+msgstr ""
+
+#: realty-portal-advanced-search-functions.php:28
+msgid "Enter Your Keyword..."
+msgstr ""
+
+#: realty-portal-advanced-search-functions.php:41
+msgid "Offers"
+msgstr ""
+
+#: realty-portal-advanced-search-functions.php:56
+msgid "Listing Types"
+msgstr ""
+
+#: realty-portal-advanced-search-functions.php:71
+msgid "Country"
+msgstr ""
+
+#: realty-portal-advanced-search-functions.php:97
+msgid "City"
+msgstr ""
+
+#: realty-portal-advanced-search-functions.php:101
+msgid "Neighborhood"
+msgstr ""
+
+#: realty-portal-advanced-search-functions.php:105
+msgid "Zip"
+msgstr ""
+
+#: realty-portal-advanced-search-functions.php:113
+#: realty-portal-advanced-search-functions.php:199
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: realty-portal-advanced-search-functions.php:126
+msgid "Price"
+msgstr ""
+
+#: realty-portal-advanced-search-functions.php:133
+msgid "Area"
+msgstr ""
+
+#: realty-portal-advanced-search.php:85
+msgid ""
+"The <strong>Realty Portal: Advanced Search</strong> only works after "
+"<strong>Realty Portal: Realty Portal</strong> is activated, please activate it"
+msgstr ""
+
+#: realty-portal-advanced-search.php:193 realty-portal-advanced-search.php:205
+msgid "Source"
+msgstr ""
+
+#: realty-portal-advanced-search.php:198 realty-portal-advanced-search.php:210
+msgid "Property"
+msgstr ""
+
+#: realty-portal-advanced-search.php:199
+msgid "IDX"
+msgstr ""
+
+#: realty-portal-advanced-search.php:218
+msgid "Show Map"
+msgstr ""
+
+#: realty-portal-advanced-search.php:223 realty-portal-advanced-search.php:234
+#: realty-portal-advanced-search.php:304 realty-portal-advanced-search.php:318
+msgid "Yes"
+msgstr ""
+
+#: realty-portal-advanced-search.php:224 realty-portal-advanced-search.php:235
+#: realty-portal-advanced-search.php:305 realty-portal-advanced-search.php:319
+msgid "No"
+msgstr ""
+
+#: realty-portal-advanced-search.php:229
+msgid "Show Controls Map"
+msgstr ""
+
+#: realty-portal-advanced-search.php:244
+msgid "Search Layout"
+msgstr ""
+
+#: realty-portal-advanced-search.php:245
+msgid "Choose layout for Search form."
+msgstr ""
+
+#: realty-portal-advanced-search.php:249
+msgid "Search Horizontal"
+msgstr ""
+
+#: realty-portal-advanced-search.php:250
+msgid "Search Vertical"
+msgstr ""
+
+#: realty-portal-advanced-search.php:251
+msgid "Search Top"
+msgstr ""
+
+#: realty-portal-advanced-search.php:260
+msgid "Latitude"
+msgstr ""
+
+#: realty-portal-advanced-search.php:270
+msgid "Longitude"
+msgstr ""
+
+#: realty-portal-advanced-search.php:280
+msgid "Zoom"
+msgstr ""
+
+#: realty-portal-advanced-search.php:290
+msgid "Height"
+msgstr ""
+
+#: realty-portal-advanced-search.php:300
+msgid "Drag Map"
+msgstr ""
+
+#: realty-portal-advanced-search.php:314
+msgid "Automatically Fit all Properties"
+msgstr ""
+
+#: realty-portal-advanced-search.php:331
+msgid "Find Property"
+msgstr ""
+
+#: realty-portal-advanced-search.php:335
+msgid "Sub Title"
+msgstr ""
+
+#: realty-portal-advanced-search.php:424
+msgid "Show Features & Amenities"
+msgstr ""
+
+#: realty-portal-advanced-search.php:434
+msgid "Text More"
+msgstr ""
+
+#: realty-portal-advanced-search.php:444
+msgid "Text Button Search"
+msgstr ""
+
+#: realty-portal-advanced-search.php:453
+msgid "Advanced Search Property"
+msgstr ""
+
+#: realty-portal-advanced-search.php:456
+msgid "Properties"
+msgstr ""
+
+#: templates/shortcode/advanced-search.php:64
+msgid "Loading Maps"
+msgstr ""
+
+#: templates/shortcode/advanced-search.php:80
+msgid "View"
+msgstr ""
+
+#: templates/shortcode/advanced-search.php:83
+msgid "Roadmap"
+msgstr ""
+
+#: templates/shortcode/advanced-search.php:86
+msgid "Satellite"
+msgstr ""
+
+#: templates/shortcode/advanced-search.php:89
+msgid "Hybrid"
+msgstr ""
+
+#: templates/shortcode/advanced-search.php:92
+msgid "Terrain"
+msgstr ""
+
+#: templates/shortcode/advanced-search.php:98
+msgid "My Location"
+msgstr ""
+
+#: templates/shortcode/advanced-search.php:102
+msgid "Fullscreen"
+msgstr ""
+
+#: templates/shortcode/advanced-search.php:106
+msgid "Prev"
+msgstr ""
+
+#: templates/shortcode/advanced-search.php:109
+msgid "Next"
+msgstr ""
+
+#: templates/shortcode/advanced-search.php:122
+msgid "Google Maps Search"
+msgstr ""
+
+#: templates/shortcode/advanced-search.php:132
+msgid "We found <b>0</b> results. Do you want to load the results now?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Realty Portal: Advanced Search"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://nootheme.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A forward-thinking solution for every Real Estate website. Easy to update and "
+"customize elements of Search function. Work with any theme!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NooTeam"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://nootheme.com/"
+msgstr ""

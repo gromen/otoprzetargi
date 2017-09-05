@@ -1,0 +1,71 @@
+/**
+ * Style shortcode: Noo Service
+ */
+.noo-ads-service {
+	position: relative;
+	min-height: 180px;
+	padding: 35px 0;
+	.noo-title{
+		font-size: 34px;
+	}
+	.noo-ads-phone{
+		position: absolute;
+		top: 60px;
+		right: 0;
+		min-width: 295px;
+		.fa-phone {
+			font-size: 50px;
+			line-height: 75px;
+			float: left;
+			padding-right: 10px;
+			color: @white;
+			.rotate(16deg);
+		}
+		.noo-ads-desc {
+			line-height: 32px;
+			font-size: 16px;
+			color: @white;
+			a {
+				color: @white;
+				font-size: 24px;
+				.transition(all 0.4s ease 0s);
+				&:hover{
+					color: @secondary-color;
+				}
+			}
+		}
+		@media (max-width: @screen-xs-max) {
+			min-width: 270px;
+			position: relative;
+			top: 0;
+			.noo-ads-desc{
+				a{
+					font-size: 20px;
+				}
+			}
+		}
+	}
+	img {
+		position: absolute;
+		bottom: 0;
+		left: -275px;
+		@media (max-width: 1740px) {
+			display: none;			
+		}
+	}
+	@media (max-width: @screen-xs-max) {
+		.noo-sub-title{
+			margin-top: 10px;
+		}
+	}
+}
+
+/** Boxed Layout */
+
+.boxed-layout {
+	.noo-ads-service {
+		img {
+			display: none;
+		}
+	}
+}

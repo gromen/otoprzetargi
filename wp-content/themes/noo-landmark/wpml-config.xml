@@ -1,0 +1,22 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">_heading_image</custom-field>
+        <custom-field action="copy">_noo_wp_page_menu_transparent</custom-field>
+        <custom-field action="copy">_noo_wp_page_menu_transparent_logo</custom-field>
+        <custom-field action="copy">_noo_wp_page_hide_page_title</custom-field>
+        <custom-field action="copy">_noo_wp_page_sidebar</custom-field>
+        <custom-field action="copy">_noo_wp_post_video_embed</custom-field>
+        <custom-field action="copy">_noo_wp_post_video_ratio</custom-field>
+        <custom-field action="copy">_noo_wp_post_video_preview</custom-field>
+        <custom-field action="copy">_noo_wp_post_audio_embed</custom-field>
+        <custom-field action="translate">_noo_wp_post_quote</custom-field>
+        <custom-field action="translate">_noo_wp_post_quote_citation</custom-field>
+        <custom-field action="copy">_noo_wp_post_link</custom-field>
+        <custom-field action="copy">_noo_wp_post_global_setting</custom-field>
+        <custom-field action="copy">_noo_wp_post_override_layout</custom-field>
+        <custom-field action="copy">_noo_wp_post_layout</custom-field>
+        <custom-field action="copy">_noo_wp_post_sidebar</custom-field>
+    </custom-fields>
+</wpml-config>
+
+

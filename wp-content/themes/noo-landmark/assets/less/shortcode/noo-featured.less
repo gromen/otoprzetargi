@@ -1,0 +1,222 @@
+/**
+ * Style short code noo_featured
+ */
+.noo-featured{
+
+	&.noo-sc-caption{
+		&:before{
+		}
+	}
+
+	.noo-featured-main{
+		position: relative;
+		min-height: 420px;
+		.noo-meta{
+			color: @white;
+			width: 50%;
+			float: left;
+			padding: 74px 0;
+			.title{
+				font-size: 32px;
+				font-weight: @font-weight-semibold;
+				text-transform: uppercase;
+			}
+			.location{
+				font-size: 16px;
+				display: block;
+				margin: 12px 0px;
+			    display: block;
+			}
+			.price{
+				font-size: 22px;
+				font-weight: @font-weight-medium;
+				line-height: 26px;
+				display: block;
+			}
+		}
+		.noo-info {
+			color: #fff;
+			max-width: 470px;
+			height: 180px;
+			position: relative;
+			width: 50%;
+			float: right;
+			margin-top: 120px;
+			&:before{
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 0;
+				width: 100%;
+				height: 1px;
+				background: fade(@white, 20%);
+			}
+			&:after{
+				content: '';
+				position: absolute;
+				left: 50%;
+				width: 1px;
+				height: 100%;
+				background: fade(@white, 20%);
+			}
+			> span {
+				width: 50%;
+				padding: 25px 0 20px 30px;
+				float: left;
+				font-size: 20px;
+			    font-weight: @font-weight-base;
+			    line-height: 50px;
+			    i {
+		    	    font-size: 35px;
+	    	        margin-right: 10px;
+	    	        display: block;
+	    	        float: left;
+	    	        line-height: 50px;
+			    }
+			}
+		}
+		.box-image {
+			width: 550px;
+   			height: 323px;
+		  	position: relative;
+		  	overflow: hidden;
+		  	float: left;
+			bottom: -148px;
+			.box-image-content{
+			  	position: absolute;
+			  	width: 100%;
+			  	height: 100%;
+			    background-repeat: no-repeat;
+			    background-size: cover;
+			    -webkit-background-size: cover;
+			}
+		}
+		@media ( min-width:@screen-md-min ){
+			.box-image {
+				position: absolute;
+				.box-image-inner{
+				  	position: absolute;
+				  	width: 100%;
+				  	height: 100%;
+				  	.skew(0, 1.7deg);
+				  	transform-origin: left top;
+				  	-webkit-transform-origin: left top;
+				   	overflow: hidden;
+				}
+				.box-image-content{
+				  	.skew(0, -3deg);
+				  	transform-origin: left top;
+				  	-webkit-transform-origin: left top;
+				}
+			}
+		}
+		.noo-view{
+			max-width: 470px;
+			position: absolute;
+			right: 0;
+			bottom: -160px;
+			p{
+				padding-left: 15px;
+				border-left: 5px solid @secondary-color;
+			}
+			.noo-readmore{
+				padding-left: 20px;
+				&:hover{
+					color: @secondary-color;
+				}
+			}
+		}
+	}
+
+	/** Responsive  */
+	@media ( max-width: @screen-md-max ){
+		.noo-featured-main{
+			.box-image{
+				width: 420px;
+				height: 240px;
+				bottom: -100px;
+			}
+			.noo-view{
+				bottom: -140px;
+			}
+		}
+	}
+
+	@media ( max-width: @screen-sm-max ){
+		.noo-featured-main{
+			padding: 30px 0;
+			> div{
+				clear: both;
+				margin-bottom: 20px;
+			}
+			.noo-meta{
+				width: 100%;
+				float: none;
+				padding: 0;
+				.title{
+					font-size: 24px;
+				}
+				.price{
+					font-size: 20px;
+				}
+			}
+			.noo-info{
+				max-width: 100%;
+				width: 100%;
+				float: none;
+				margin-top: 0;
+				> span {
+					font-size: 18px;
+					> i {
+						font-size: 35px;
+					}
+				}
+			}
+			.box-image{
+				position: relative;
+				bottom: 0;
+			}
+			.noo-view{
+				position: relative;
+				bottom: 0;
+				p, a{					
+					color: @white;
+				}
+			}
+		}
+	}
+
+	@media ( max-width: 480px ){
+		.noo-featured-main{
+			.box-image{
+				width: 100%;
+			}
+			.noo-meta{
+				.title{
+					font-weight: 500;
+				}
+				.location{
+					font-size: 14px;
+				}
+				.price{
+					font-size: 18px;
+				}
+			}
+			.noo-info{
+				> span {
+				    padding: 25px 0 20px 15px;
+					font-size: 14px;
+					font-weight: normal;
+					padding-bottom: 15px;
+					line-height: 25px;
+					>i{
+						font-size: 30px;
+					}
+					>span{
+						line-height: 35px;
+					}
+				}
+			}
+		}
+	}
+}

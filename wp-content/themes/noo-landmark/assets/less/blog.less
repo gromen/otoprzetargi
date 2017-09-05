@@ -1,0 +1,239 @@
+/**
+ *   4.3 - Blog
+ * -----------------------------------------------------------------------------
+ */
+
+.masonry-filters {
+  font-size: @font-size-large - 2;
+  font-weight: @font-weight-semibold;
+  font-family: @font-heading;
+  text-transform: uppercase;
+
+  ul {
+
+    list-style: none;
+    padding: 30px 0;
+
+    li {
+
+      display: inline-block;
+      padding: 0 15px;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      a {
+        display: block;
+        padding-bottom: 4px;
+        position: relative;
+
+        &:before {
+          height: 2px;
+          width: 100%;
+          background-color: @secondary-color;
+          position: absolute;
+          content: '';
+          bottom: 0;
+          left: 0;
+          .scale(0);
+          .transition(all 0.4s ease 0s);
+        }
+
+        &:hover,
+        &.selected {
+          color: @secondary-color;
+          
+          &:before {
+            .scale(1);
+          }
+        }
+      }
+    }
+  }
+}
+
+.noo-blog-masonry {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  .hentry.grid:not(.format-gallery) .content-featured {
+
+    min-height: 265px;
+    
+    a {
+      min-height: 265px;
+    }
+  }
+
+  .hentry.list-single {
+    margin-top: 0;
+    
+    .blog-item {
+      background: transparent;
+      border: none;
+
+      .entry-footer,
+      .entry-content {
+        display: none;
+      }
+
+      .entry-header {
+        padding-bottom: 34px;
+      }
+
+      .wrap-entry {
+        .transition(all 0.4s ease 0s);
+        border: 1px solid #e5e5f8;
+      }
+
+      &:hover {
+        .box-shadow(none);
+
+        .wrap-entry {
+          .box-shadow(0px 3px 30px 0px fade(@black, 12%));
+        }
+      }
+    }
+  }
+}
+
+.noo-masonry-item.hentry {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+.noo-owlslider {
+
+  ul.products,
+  .sliders {
+
+    &.owl-theme {
+      position: relative;
+
+      .owl-controls {
+        margin-top: 0;
+
+        .owl-pagination {
+          
+          position: absolute;
+          top: 0;
+          right: 0;
+          margin-right: 10px;
+          margin-top: 10px;
+
+          .owl-page span {
+            background: @white;
+          }
+        }
+
+        .owl-buttons {
+          position: absolute;
+          width: 100%;
+          top: 50%;
+          right: 0;
+          .translate(0, -50%);
+
+          div {
+            background: @secondary-color;
+            .opacity(0.65);
+            .transition(all 0.2s ease 0s);
+            .border-radius(0);
+            margin: 0;
+            padding: 6px 12px;
+            font-size: @font-size-base;
+            font-weight: @font-weight-medium;
+          }
+
+          .owl-prev {
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+
+          .owl-next {
+            position: absolute;
+            top: 0;
+            right: 0;
+          }
+
+        } 
+      }
+    }
+  }
+  
+}
+
+.hentry {
+  &.grid,
+  &.list-2-column {
+    .noo-owlslider {
+      .sliders {
+        .owl-wrapper {
+          .owl-item {
+            .slide-item {
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              height: 325px;
+              background-size: cover;
+              background-repeat: no-repeat;
+              cursor: ew-resize;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.list-single .noo-owlslider .sliders .owl-wrapper .owl-item .slide-item {
+    cursor: ew-resize;
+  }
+}
+
+.noo-blog-slider {
+  >.noo-owlslider {
+    >.sliders {
+      margin-top: 55px;
+      margin-bottom: 30px;
+    }
+
+    >.sliders.owl-theme {
+      >.owl-controls {
+        .owl-buttons {
+          top: -94px;
+          text-align: right;
+          right: 15px;
+
+          @media screen and (max-width: 767px) {
+            top: auto;
+            position: relative;
+          }
+
+          div {
+            .noo-button-icon;
+            .opacity(1);
+            padding: 0px 16px;
+
+            i {
+              font-size: @font-size-h3;
+              line-height: 42px;
+              position: static;
+              width: auto !important;
+              top: auto !important;
+              left: auto !important;
+              right: auto !important;
+              font-size: 24px;
+              line-height: 42px;
+            }
+
+          }
+
+          .owl-prev {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}

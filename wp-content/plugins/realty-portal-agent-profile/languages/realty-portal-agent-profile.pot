@@ -1,0 +1,155 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Realty Portal: Agent Profile\n"
+"POT-Creation-Date: 2017-08-17 09:37+0700\n"
+"PO-Revision-Date: 2017-05-05 14:33+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: realty-portal-agent-profile.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-agent-profile-process.php:26 realty-portal-agent-profile.php:146
+msgid "Agent Profile"
+msgstr ""
+
+#: realty-portal-agent-profile.php:80
+msgid ""
+"The <strong>Realty Portal: Agent Profile</strong> only works after <strong>Realty "
+"Portal: Agent</strong> is activated, please activate it"
+msgstr ""
+
+#: realty-portal-agent-profile.php:175
+msgctxt "Page slug"
+msgid "agent-profile"
+msgstr ""
+
+#: realty-portal-agent-profile.php:176
+msgctxt "Page title"
+msgid "Agent Profile"
+msgstr ""
+
+#: realty-portal-agent-profile.php:205
+msgid "RP Agent Profile"
+msgstr ""
+
+#: realty-portal-agent-profile.php:208
+msgid "Agent"
+msgstr ""
+
+#: templates/agent-profile.php:44
+msgid "Name"
+msgstr ""
+
+#: templates/agent-profile.php:46
+msgid "Please enter name..."
+msgstr ""
+
+#: templates/agent-profile.php:50 templates/agent-profile.php:146
+msgid "6 or more characters, letters and numbers"
+msgstr ""
+
+#: templates/agent-profile.php:64
+msgid "Avatar"
+msgstr ""
+
+#: templates/agent-profile.php:66
+msgid "Choose image"
+msgstr ""
+
+#: templates/agent-profile.php:68
+msgid "Recommended size: 268x210"
+msgstr ""
+
+#: templates/agent-profile.php:74
+msgid "About"
+msgstr ""
+
+#: templates/agent-profile.php:76
+msgid "Please enter about..."
+msgstr ""
+
+#: templates/agent-profile.php:85
+msgid "Website"
+msgstr ""
+
+#: templates/agent-profile.php:87
+msgid "Please enter website..."
+msgstr ""
+
+#: templates/agent-profile.php:93
+msgid "Address"
+msgstr ""
+
+#: templates/agent-profile.php:95
+msgid "Please enter address..."
+msgstr ""
+
+#: templates/agent-profile.php:113
+msgid "Update"
+msgstr ""
+
+#: templates/agent-profile.php:120 templates/agent-profile.php:169
+msgid "Change password"
+msgstr ""
+
+#: templates/agent-profile.php:126
+msgid "Old password"
+msgstr ""
+
+#: templates/agent-profile.php:128
+msgid "Please enter old password..."
+msgstr ""
+
+#: templates/agent-profile.php:132
+msgid "Please enter your password..."
+msgstr ""
+
+#: templates/agent-profile.php:139
+msgid "New password"
+msgstr ""
+
+#: templates/agent-profile.php:141
+msgid "Please enter new password..."
+msgstr ""
+
+#: templates/agent-profile.php:154
+msgid "Confirm new password"
+msgstr ""
+
+#: templates/agent-profile.php:156
+msgid "Please enter confirm new password..."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Realty Portal: Agent Profile"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://nootheme.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The add-on to help agents manage all personal information. Edit information "
+"anytime in front-end. Work with any theme!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NooTeam"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://nootheme.com/"
+msgstr ""

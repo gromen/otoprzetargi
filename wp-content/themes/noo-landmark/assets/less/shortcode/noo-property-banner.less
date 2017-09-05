@@ -1,0 +1,45 @@
+.noo-property-banner {
+	&.style-2 {
+		.noo-property-box-meta-content {
+			border-bottom: none;
+			&:before {
+		        content: '';
+			    background: @secondary-color;
+			    width: 100%;
+			    height: 4px;
+			    position: absolute;
+			    bottom: -18px;
+			    left: 0;
+			    display: block;
+			    -webkit-transform: rotate(-4deg);
+			    -ms-transform: rotate(-4deg);
+			    transform: rotate(-4deg);
+			    z-index: 1;
+			}
+			&:after {
+				content: '';
+			    width: 0px;
+			    height: 0px;
+			    border-top: 31px solid fade(@brand-primary, 95%);
+			    border-right: 392px solid transparent;
+		        position: absolute;
+			    bottom: -31px;
+			    left: 0;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.noo-property-banner {
+	    height: 590px;
+		.noo-property-box-meta {
+			display: block;
+		}
+		.noo-property-box-meta {
+		    top: 60px;
+		    left: 0;
+	        width: 100%;
+		}
+	}
+}

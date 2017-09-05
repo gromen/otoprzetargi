@@ -1,0 +1,627 @@
+/**
+ * Style agent profile
+ */
+.noo-welcome {
+    color: #3a3f4c;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.noo-profile-action {
+    margin-top: 40px;
+}
+
+#noo-agent-profile {
+    .noo-profile-action {
+	.noo-button {
+	    padding: 10px 40px;
+	}
+    }
+}
+
+.agent-profile-password {
+    margin-top: 30px;
+}
+
+.noo-box-menu {
+    background: #fff;
+    border: 1px solid @border-color;
+    margin-bottom: 30px;
+    .noo-avatar-agent {
+	img {
+	    width: 100%;
+	}
+    }
+    .noo-list-menu {
+	margin: 0;
+	padding: 22px 25px;
+	list-style: none;
+	li {
+	    margin-bottom: 5px;
+	    i {
+		color: #abb2cc;
+		font-size: 18px;
+		display: inline-block;
+		width: 20px;
+		.transition(all .4s ease 0s);
+		.translate(0, 2px);
+	    }
+	    a {
+		&.noo-item {
+		    color: #515666;
+		    font-size: 14px;
+		    text-transform: uppercase;
+		    font-weight: 500;
+		    .transition(all .4s ease 0s);
+		    &.active {
+			color: @secondary-color;
+			i {
+			    color: @secondary-color;
+			}
+		    }
+		}
+		&.noo-button {
+		    width: 100%;
+		    text-align: center;
+		}
+	    }
+	    &.item-button {
+		margin: 25px 0 13px;
+	    }
+	    &:hover,
+	    &.active {
+		a.noo-item, i {
+		    color: @secondary-color;
+		}
+	    }
+	}
+    }
+    .noo-box-title {
+	color: @secondary-color;
+	font-size: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	position: relative;
+	margin: 35px 22px 30px;
+	&:after {
+	    background: currentColor;
+	    content: '';
+	    position: absolute;
+	    width: 30px;
+	    height: 3px;
+	    bottom: -15px;
+	    left: 0;
+	}
+    }
+    ul.noo-box-content {
+	list-style: none;
+	margin: 0;
+	padding: 0 25px 35px;
+	li {
+	    border-bottom: 1px solid @border-color;
+	    padding: 15px 0 10px;
+	    &.package-title {
+		color: #3a3f4c;
+		font-size: 16px;
+		line-height: 26px;
+		font-family: @font-heading;
+		font-weight: 600;
+		text-transform: uppercase;
+		border-bottom: none;
+		padding: 0;
+	    }
+	    &:last-child {
+		border-bottom: none;
+	    }
+	}
+    }
+    form.noo-box-content {
+	padding: 10px 20px 45px;
+	select {
+	    width: 100%;
+	    border: 1px solid @border-color;
+	    padding: 6px 10px;
+	}
+	.noo-button {
+	    margin: 25px 0 10px;
+	    width: 100%;
+	}
+	.noo-more-detail {
+	    display: inherit;
+	    text-align: center;
+	    color: #3a3f4c;
+	    font-size: 14px;
+	    line-height: 24px;
+	    text-transform: uppercase;
+	    font-weight: 500;
+	    .transition;
+	    &:hover {
+		color: @secondary-color;
+		&:after {
+		    color: #3a3f4c;
+		    .translate(6px, 0);
+		}
+	    }
+	    &:after {
+		content: "\f125";
+		display: inline-block;
+		font-family: "Ionicons";
+		font-size: 11px;
+		margin-left: 6px;
+		.transition;
+	    }
+	}
+	.notice {
+	    text-align: center;
+	    padding: 15px 0 0;
+	}
+    }
+}
+
+.noo-agent-detail {
+    background: #fff;
+    border: 1px solid #e5e5f8;
+    margin: 0;
+    .noo-thumbnail {
+	padding-left: 0;
+	img {
+	    width: 100%;
+	}
+    }
+    .noo-info-agent {
+	padding: 0 40px 0 25px;
+    }
+    .noo-box-content {
+	.noo-title {
+	    color: #505464;
+	    font-size: 30px;
+	    margin: 45px 0 25px;
+	    font-weight: 500;
+	}
+	.item-info {
+	    color: #515666;
+	    font-size: 14px;
+	    font-weight: 500;
+	    margin-bottom: 6px;
+	    .position {
+		padding-right: 10px;
+		margin-right: 15px;
+		position: relative;
+		&:after {
+		    content: '';
+		    height: 15px;
+		    width: 1px;
+		    background: #ededfa;
+		    position: absolute;
+		    right: 0;
+		    top: 3px;
+		}
+	    }
+	}
+	ul.item-info {
+	    list-style: none;
+	    margin: 0;
+	    padding: 0;
+	    li {
+		color: #515666;
+		margin-bottom: 6px;
+		a {
+		    color: #515666;
+		    .transition(all .4s ease 0s);
+		}
+		&:before {
+		    font-family: 'FontAwesome';
+		    display: inline-block;
+		    width: 20px;
+		    color: #abb2cc;
+		    font-size: 18px;
+		    .transition(all .4s ease 0s);
+		}
+		&.noo_agent_phone {
+		    &:before {
+			content: '\f095';
+			font-size: 17px;
+		    }
+		}
+		&.noo_agent_mobile {
+		    &:before {
+			content: '\f10b';
+		    }
+		}
+		&.noo_agent_skype {
+		    &:before {
+			content: '\f17e';
+			font-size: 14px;
+		    }
+		}
+		&.noo_agent_email {
+		    &:before {
+			content: '\f0e0';
+			font-size: 14px;
+		    }
+		}
+		&.noo_agent_website {
+		    &:before {
+			content: '\f0ac';
+			font-size: 14px;
+		    }
+		}
+		&.noo_agent_address {
+		    &:before {
+			content: '\f041';
+			font-size: 17px;
+		    }
+		}
+		&:hover {
+		    a, &:before {
+			color: @secondary-color;
+		    }
+		}
+	    }
+	}
+	.agent-about {
+	    border-top: 1px solid #ededfa;
+	    padding: 25px 0 16px;
+	    margin-top: 20px;
+	    color: #515666;
+	    line-height: 24px;
+	}
+	.agent-social {
+	    margin-bottom: 30px;
+	}
+    }
+}
+
+.agent-social {
+    a {
+	display: inline-block;
+	background: #d5d5e6;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 12px;
+	.transition(all .4s ease 0s);
+	.border-radius(50%);
+	&:before {
+	    font-family: 'FontAwesome';
+	    font-size: 16px;
+	}
+	&.facebook:before {
+	    content: '\f09a';
+	}
+	&.twitter:before {
+	    content: '\f099';
+	}
+	&.instagram:before {
+	    content: '\f16d';
+	}
+	&.linkedin:before {
+	    content: '\f0e1';
+	}
+	&.google_plus:before {
+	    content: '\f1a0';
+	}
+	&.pinterest:before {
+	    content: '\f231';
+	}
+	&.youtube:before {
+	    content: '\f16a';
+	}
+	&.tumblr:before {
+	    content: '\f173';
+	}
+	&.behance:before {
+	    content: '\f1b4';
+	}
+	&.flickr:before {
+	    content: '\f16e';
+	}
+	&.vimeo:before {
+	    content: '\f27d';
+	}
+	&.github:before {
+	    content: '\f09b';
+	}
+	&.vk:before {
+	    content: '\f189';
+	}
+	&:hover {
+	    color: #fff;
+	    background: @secondary-color;
+	}
+    }
+}
+
+.noo-agent-contact {
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    .noo-title {
+	color: #fff;
+	margin: -3px 0 45px;
+	font-weight: 500;
+	text-align: center;
+    }
+    .noo-box-contact {
+	position: relative;
+	max-width: 1000px;
+	margin: auto;
+	.clearfix();
+    }
+    .noo-box-text-field {
+	position: relative;
+	width: 29.3%;
+	margin: 0 26px 0 15px;
+	float: left;
+	input[type="text"] {
+	    display: inline-block;
+	    background: transparent;
+	    border: none;
+	    width: 100%;
+	    color: #fff;
+	    border-bottom: 1px solid #fff;
+	    padding: 10px 0;
+	    .placeholder(#fff);
+	    .transition(all .4s ease 0s);
+	    .box-shadow(none);
+	    &:focus,
+	    &:hover {
+		outline: none;
+		.placeholder(lighten(@text-color, 30%));
+	    }
+	}
+	textarea {
+	    &:focus,
+	    &:hover {
+		outline: none;
+		.placeholder(lighten(@text-color, 30%));
+	    }
+	}
+
+	&:first-child {
+	    margin: 0 27px 0 15px;
+	}
+	&:last-child {
+	    margin: 0 0 0 25px;
+	}
+	&:after {
+	    content: '';
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    background: #fbb040;
+	    height: 1px;
+	    width: 30%;
+	    display: inline-block;
+	    .opacity(0);
+	    .transition(all .4s ease 0s);
+	}
+	&:focus,
+	&:hover {
+	    &:after {
+		width: 100%;
+		.opacity(1);
+	    }
+	}
+    }
+    .noo-box-textarea-field {
+	position: relative;
+	margin: 50px 0;
+	textarea {
+	    display: inline-block;
+	    background: transparent;
+	    border: none;
+	    width: 100%;
+	    color: #fff;
+	    border-bottom: 1px solid #fff;
+	    height: 120px;
+	    padding: 0;
+	    .placeholder(#fff);
+	    .transition(all .4s ease 0s);
+	    .box-shadow(none);
+	    &:focus,
+	    &:hover {
+		outline: none;
+		.placeholder(lighten(@text-color, 30%));
+	    }
+	}
+	&:after {
+	    content: '';
+	    position: absolute;
+	    bottom: 8px;
+	    left: 0;
+	    background: #fbb040;
+	    height: 1px;
+	    width: 30%;
+	    display: inline-block;
+	    .opacity(0);
+	    .transition(all .4s ease 0s);
+	}
+	&:focus,
+	&:hover {
+	    &:after {
+		width: 100%;
+		.opacity(1);
+	    }
+	}
+    }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:visited,
+    input:-webkit-autofill:active,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    textarea:-webkit-autofill:visited,
+    textarea:-webkit-autofill:active {
+	-webkit-transition-delay: 9999s;
+	-webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
+    }
+
+    .noo-form-action {
+	text-align: center;
+    }
+    .msg {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 30px 0 0;
+	color: #fff;
+    }
+    .noo-submit {
+	background: @secondary-color;
+	color: #fff;
+	font-size: 16px;
+	font-family: @font-heading;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 14px 30px;
+	border: none;
+	position: relative;
+	overflow: hidden;
+	.transition;
+	.box-shadow(none);
+	> i {
+	    top: 18px;
+	}
+	> span {
+	    position: relative;
+	    backface-visibility: hidden;
+	    z-index: 1;
+	}
+	&:before {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    height: 100%;
+	    width: 100%;
+	    background: darken(@secondary-color, 6%);
+	    .opacity(0);
+	    .translate(100%, 0);
+	    .transition(all 0.3s cubic-bezier(0.2, 0, 1, 1));
+	}
+	&:hover {
+	    &:before {
+		.opacity(1);
+		.translate(0, 0);
+	    }
+	}
+	&:focus {
+	    outline: none;
+	}
+    }
+    &:before {
+	content: '';
+	background: fade(@brand-primary, 90%);
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    }
+}
+
+.noo-agent-property {
+    .noo-box-property-slider {
+	.noo-property-item {
+	    margin-right: 0;
+	    margin-left: 0;
+	}
+    }
+}
+
+body.page .noo-agent-contact {
+    background-image: none;
+    &:before {
+	content: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .noo-agent-contact {
+	.noo-title {
+	    margin: -3px 0 30px;
+	}
+	.noo-box-text-field {
+	    width: 100%;
+	    margin: 0;
+	    padding: 0 30px 15px;
+	    &:last-child,
+	    &:first-child {
+		margin: 0;
+	    }
+	}
+	.noo-box-textarea-field {
+	    margin: 30px 15px;
+	}
+    }
+}
+@media (max-width: 767px) {
+    .noo-box-menu {
+	.noo-box-title {
+	    font-size: 20px;
+	}
+    }
+
+    .agent-profile-submit,
+    .agent-profile-password {
+	padding: 30px 20px;
+    }
+
+    .noo-agent-detail {
+	.noo-thumbnail {
+	    padding-right: 0;
+	}
+	.noo-box-content {
+	    .noo-title {
+		margin: 30px 0 15px;
+	    }
+	}
+    }
+
+    .noo-agent-contact {
+	padding: 50px 20px;
+    }
+
+    .noo-agent-contact {
+	.noo-title {
+	    margin: -3px 0 30px;
+	}
+	.noo-box-text-field {
+	    width: 100%;
+	    padding-right: 30px;
+	    margin: 0 27px 15px 15px;
+	}
+	.noo-box-textarea-field {
+	    margin: 30px 0;
+	}
+    }
+
+    .noo-agent-property {
+	padding: 30px 15px;
+	.noo-box-property-slider {
+	    .noo-title-header {
+		margin-bottom: 30px;
+	    }
+	}
+	.noo-list-property.style-grid {
+	    margin: 0;
+	    .noo-property-item-wrap {
+		margin: 0;
+	    }
+	}
+    }
+}

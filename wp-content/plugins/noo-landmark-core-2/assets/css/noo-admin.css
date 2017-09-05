@@ -1,0 +1,154 @@
+
+.noo-properties-meta-box table td {
+    padding: 4px 0 4px 7px !important;
+    position: relative;
+    vertical-align: middle !important;
+}
+.noo-properties-meta-box table td.sort {
+    background: #f9f9f9 none repeat scroll 0 0;
+    cursor: move;
+    padding: 0 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+.noo-properties-meta-box table td.sort::before{
+    color: #999;
+    content: "\f214";
+    display: block;
+    float: left;
+    font-family: 'dashicons';
+    height: 100%;
+    line-height: 1;
+    text-align: center;
+    width: 17px;
+}
+.noo-properties-meta-box .sort{
+    width: 5%;
+}
+.noo-properties-meta-box table td input.input_text {
+    float: none;
+    margin: 1px 0;
+    min-width: 0;
+    width: 100%;
+}
+.noo-properties-meta-box table td .delete{
+    display: block;
+    height: 1em;
+    position: relative;
+    text-indent: -9999px;
+    width: 1em;
+}
+.noo-properties-meta-box table td .delete::before {
+    color: #999;
+    content: "\f182";
+    font-family: 'dashicons';
+    font-variant: normal;
+    font-weight: 400;
+    height: 100%;
+    left: 0;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    text-indent: 0;
+    text-transform: none;
+    top: 0;
+    width: 100%;
+}
+body ._properties .noo-control,
+body ._attach .noo-control,
+body ._noo_wp_team_team_properties .noo-control{
+    width: 80%;
+    float: none;
+}
+.noo-properties-meta-box strong{
+    display: block;
+    line-height: 1em;
+}
+.noo-attach-meta-box table td {
+    padding: 4px 0 4px 7px !important;
+    position: relative;
+    vertical-align: middle !important;
+}
+.noo-attach-meta-box table td.sort {
+    background: #f9f9f9 none repeat scroll 0 0;
+    cursor: move;
+    padding: 0 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+.noo-attach-meta-box table td.sort::before{
+    color: #999;
+    content: "\f214";
+    display: block;
+    float: left;
+    font-family: 'dashicons';
+    height: 100%;
+    line-height: 1;
+    text-align: center;
+    width: 17px;
+}
+.noo-attach-meta-box .sort{
+    width: 5%;
+}
+.noo-attach-meta-box table td input.input_text {
+    float: none;
+    margin: 1px 0;
+    min-width: 0;
+    width: 100%;
+}
+.noo-attach-meta-box table td .delete{
+    display: block;
+    height: 1em;
+    position: relative;
+    text-indent: -9999px;
+    width: 1em;
+}
+.noo-attach-meta-box table td .delete::before {
+    color: #999;
+    content: "\f182";
+    font-family: 'dashicons';
+    font-variant: normal;
+    font-weight: 400;
+    height: 100%;
+    left: 0;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    text-indent: 0;
+    text-transform: none;
+    top: 0;
+    width: 100%;
+}
+
+.noo-attach-meta-box strong{
+    display: block;
+    line-height: 1em;
+}
+div.noo-control input[type="text"],
+div.noo-control textarea,
+div.noo-control select {
+    display: block;
+    width: auto;
+    min-width: 300px;
+}
+#side-sortables div.noo-control input[type="text"],
+#side-sortables div.noo-control textarea,
+#side-sortables div.noo-control select {
+    display: block;
+    width: auto;
+    min-width: inherit;
+}
+
+.noo_radio_image label > input{
+  visibility: hidden;
+  position: absolute;
+}
+.noo_radio_image label > input + img{
+  cursor:pointer;
+  border: 1px solid #ddd;
+}
+.noo_radio_image label > input:checked + img{
+  border: 1px solid #2b4b80;
+}

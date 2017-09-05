@@ -1,0 +1,317 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Realty Portal: Submit Property\n"
+"POT-Creation-Date: 2017-09-01 14:18+0700\n"
+"PO-Revision-Date: 2017-05-05 14:33+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: realty-portal-submit-property.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-submit-property-process.php:28
+#: realty-portal-submit-property.php:181
+msgid "Submit Property"
+msgstr ""
+
+#: includes/class-submit-property-process.php:37
+msgid "Security Breach! Please contact admin!"
+msgstr ""
+
+#: includes/class-submit-property-process.php:105
+msgid "Can't create new property, please contact administration!"
+msgstr ""
+
+#: includes/class-submit-property-process.php:114
+#, php-format
+msgid ""
+"A user has just submitted a listing on %s and it's now waiting for your "
+"approval. To approve or reject it, please follow this link: %s"
+msgstr ""
+
+#: includes/class-submit-property-process.php:115
+#, php-format
+msgid "[%s] New submission needs approval"
+msgstr ""
+
+#: includes/class-submit-property-process.php:117
+#, php-format
+msgid "A user has just submitted a listing on %s. You can check it at %s"
+msgstr ""
+
+#: includes/class-submit-property-process.php:118
+#, php-format
+msgid "[%s] New property submission"
+msgstr ""
+
+#: includes/class-submit-property-process.php:122
+msgid "Create property success!"
+msgstr ""
+
+#: includes/class-submit-property-process.php:141
+msgid "Update property success!"
+msgstr ""
+
+#: includes/class-submit-property-process.php:198
+msgid "Can't update property, please contact administration!"
+msgstr ""
+
+#: includes/class-submit-property-process.php:202
+msgid "Don't empty title, please check again!"
+msgstr ""
+
+#: realty-portal-submit-property.php:82
+msgid ""
+"The <strong>Realty Portal: Submit Property</strong> only works after "
+"<strong>Realty Portal: Agent</strong> is activated, please activate it"
+msgstr ""
+
+#: realty-portal-submit-property.php:105
+msgid "You are required to upload at least one image"
+msgstr ""
+
+#: realty-portal-submit-property.php:163
+msgctxt "Page slug"
+msgid "agent-profile"
+msgstr ""
+
+#: realty-portal-submit-property.php:164
+msgctxt "Page title"
+msgid "Submit Property"
+msgstr ""
+
+#: realty-portal-submit-property.php:224
+msgid "RP Submit Property"
+msgstr ""
+
+#: realty-portal-submit-property.php:227
+msgid "Agent"
+msgstr ""
+
+#: templates/submit-property.php:43
+msgid "Submit property"
+msgstr ""
+
+#: templates/submit-property.php:48
+msgid "Update property"
+msgstr ""
+
+#: templates/submit-property.php:59
+msgid "Property title"
+msgstr ""
+
+#: templates/submit-property.php:61
+msgid "Please enter property title..."
+msgstr ""
+
+#: templates/submit-property.php:65 templates/submit-property.php:79
+msgid "6 or more characters, letters and numbers"
+msgstr ""
+
+#: templates/submit-property.php:66
+msgid "Not be blank property title"
+msgstr ""
+
+#: templates/submit-property.php:80
+msgid "Not be blank Property title"
+msgstr ""
+
+#: templates/submit-property.php:87
+msgid "Property photo"
+msgstr ""
+
+#: templates/submit-property.php:89
+msgid "Upload photo"
+msgstr ""
+
+#: templates/submit-property.php:92
+msgid ""
+"At least 1 image is required for a valid submission. The featured image "
+"will be used to dispaly on property listing page."
+msgstr ""
+
+#: templates/submit-property.php:100
+msgid "Offers"
+msgstr ""
+
+#: templates/submit-property.php:102
+msgid "Select offers"
+msgstr ""
+
+#: templates/submit-property.php:111
+#, php-format
+msgid "Price (%s)"
+msgstr ""
+
+#: templates/submit-property.php:113
+msgid "Please enter price..."
+msgstr ""
+
+#: templates/submit-property.php:122
+msgid "Before price label"
+msgstr ""
+
+#: templates/submit-property.php:124
+msgid "From"
+msgstr ""
+
+#: templates/submit-property.php:130
+msgid "After price label"
+msgstr ""
+
+#: templates/submit-property.php:132
+msgid "Per Month"
+msgstr ""
+
+#: templates/submit-property.php:140
+msgid "Type"
+msgstr ""
+
+#: templates/submit-property.php:142
+msgid "Select type"
+msgstr ""
+
+#: templates/submit-property.php:157 templates/submit-property.php:165
+msgid "Property Video"
+msgstr ""
+
+#: templates/submit-property.php:159 templates/submit-property.php:167
+msgid "Link http://"
+msgstr ""
+
+#: templates/submit-property.php:177
+msgid "Property feature"
+msgstr ""
+
+#: templates/submit-property.php:187
+msgid "Floor plans"
+msgstr ""
+
+#: templates/submit-property.php:196
+msgid "Address"
+msgstr ""
+
+#: templates/submit-property.php:198
+msgid "Please enter address..."
+msgstr ""
+
+#: templates/submit-property.php:201
+msgid "Not be blank address"
+msgstr ""
+
+#: templates/submit-property.php:208
+msgid "Country"
+msgstr ""
+
+#: templates/submit-property.php:210
+msgid "Select Country"
+msgstr ""
+
+#: templates/submit-property.php:219
+msgid "City"
+msgstr ""
+
+#: templates/submit-property.php:221
+msgid "Please enter city..."
+msgstr ""
+
+#: templates/submit-property.php:223
+msgid "Not be blank City"
+msgstr ""
+
+#: templates/submit-property.php:229
+msgid "Neighborhood"
+msgstr ""
+
+#: templates/submit-property.php:231
+msgid "Please enter neighborhood..."
+msgstr ""
+
+#: templates/submit-property.php:232
+msgid "Not be blank Neighborhood"
+msgstr ""
+
+#: templates/submit-property.php:238
+msgid "Zip"
+msgstr ""
+
+#: templates/submit-property.php:240
+msgid "Please enter zip..."
+msgstr ""
+
+#: templates/submit-property.php:241
+msgid "Not be blank Zip"
+msgstr ""
+
+#: templates/submit-property.php:247
+msgid "State"
+msgstr ""
+
+#: templates/submit-property.php:249
+msgid "Please enter state..."
+msgstr ""
+
+#: templates/submit-property.php:250
+msgid "Not be blank State"
+msgstr ""
+
+#: templates/submit-property.php:256
+msgid "Latitude"
+msgstr ""
+
+#: templates/submit-property.php:258
+msgid "Please enter latitude..."
+msgstr ""
+
+#: templates/submit-property.php:261
+msgid "Not be blank latitude"
+msgstr ""
+
+#: templates/submit-property.php:268
+msgid "Longitude"
+msgstr ""
+
+#: templates/submit-property.php:270
+msgid "Please enter longitude..."
+msgstr ""
+
+#: templates/submit-property.php:273
+msgid "Not be blank longitude"
+msgstr ""
+
+#: templates/submit-property.php:280
+msgid "Set address on map"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Realty Portal: Submit Property"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://nootheme.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The add-on helps to submit properties right in front-end. It works with "
+"any theme!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NooTeam"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://nootheme.com/"
+msgstr ""

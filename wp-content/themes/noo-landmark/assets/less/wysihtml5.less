@@ -1,0 +1,219 @@
+
+.wysihtml5-editor-toolbar {
+  position: relative;
+  .commands {
+    display: inline-block;
+    padding: 0;
+  }
+  [data-wysihtml5-command],
+  [data-wysihtml5-action],
+  .fore-color {
+    position: relative;
+    list-style: none;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    color: #515666;
+    font-weight: 500;
+    border: 1px solid @border-color;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 6px;
+    .transition(all .4s ease 0s);
+  }
+
+  [data-wysihtml5-command]:after,
+  [data-wysihtml5-action]:after,
+  .fore-color:after {
+    font-family: 'FontAwesome';
+  }
+
+  [data-wysihtml5-command]:hover,
+  [data-wysihtml5-action]:hover,
+  .fore-color:hover {
+    border-color: transparent;
+    background: @secondary-color;
+    color: #fff;
+  }
+
+  [data-wysihtml5-command="bold"]:after {
+    content: '\f032';
+  }
+
+  [data-wysihtml5-command="italic"]:after {
+    content: '\f033';
+  }
+
+  [data-wysihtml5-command="insertUnorderedList"]:after {
+    content: '\f03a';
+  }
+
+  [data-wysihtml5-command="insertOrderedList"]:after {
+    content: '\f0cb';
+  }
+
+  [data-wysihtml5-command="formatBlock"][data-wysihtml5-command-value="h1"]:after {
+    background-position: -344px center;
+  }
+
+  [data-wysihtml5-command="createLink"]:after {
+    content: '\f0c1';
+  }
+
+  [data-wysihtml5-command="insertImage"]:after {
+    content: '\f03e';
+  }
+
+  [data-wysihtml5-action="change_view"]:after {
+    content: '\f121';
+  }
+
+  .fore-color ul {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    right: -1px;
+    left: -2px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    background: #fff;
+    overflow: hidden;
+  }
+
+  .fore-color li {
+    display: block;
+    margin: 3px;
+    width: auto;
+    border: 0;
+    height: 15px;
+  }
+
+  .fore-color li:after {
+    display: none;
+  }
+
+  .fore-color:hover ul {
+    display: block;
+  }
+
+  .fore-color [data-wysihtml5-command-value="silver"] {
+    background: silver !important;
+  }
+
+
+  .fore-color [data-wysihtml5-command-value="gray"] {
+    background: gray !important;
+  }
+
+  .fore-color [data-wysihtml5-command-value="maroon"] {
+    background: maroon !important;
+  }
+
+  .fore-color [data-wysihtml5-command-value="red"] {
+    background: red !important;
+  }
+
+  .fore-color [data-wysihtml5-command-value="purple"] {
+    background: purple !important;
+  }
+
+  .fore-color [data-wysihtml5-command-value="green"] {
+    background: green !important;
+  }
+
+  .fore-color [data-wysihtml5-command-value="olive"] {
+    background: olive !important;
+  }
+
+  .fore-color [data-wysihtml5-command-value="navy"] {
+    background: navy !important;
+  }
+
+  .fore-color [data-wysihtml5-command-value="blue"] {
+    background: blue !important;
+  }
+
+  .fore-color .wysihtml5-command-active {
+    outline: 1px solid #666;
+    outline-offset: 1px;
+  }
+
+  .wysihtml5-commands-disabled .fore-color ul {
+    display: none;
+  }
+
+  .wysihtml5-action-active,
+  .wysihtml5-command-active {
+    box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.2);
+    background: #eee !important;
+  }
+
+  .wysihtml5-commands-disabled [data-wysihtml5-command],
+  .wysihtml5-commands-disabled .fore-color {
+    opacity: 0.4;
+    cursor: default;
+    background-image: none !important;
+  }
+
+  [data-wysihtml5-dialog] {
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 4px;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    background: #FFFBE0;
+    position: absolute;
+    text-align: center;
+    top: 45px;
+  }
+
+  [data-wysihtml5-dialog] input {
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 3px;
+  }
+
+  [data-wysihtml5-dialog] input:focus {
+    outline: 0;
+    border: 1px solid #666;
+  }
+
+  [data-wysihtml5-dialog-action] {
+    padding: 3px 9px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    vertical-align: middle;
+    .transition(all .4s ease 0s);
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  [data-wysihtml5-dialog-action="save"] {
+    background: @secondary-color;
+    &:hover {
+      background: darken(@secondary-color, 15%);
+    }
+  }
+
+  [data-wysihtml5-dialog-action="cancel"] {
+    background: #999;
+    &:hover {
+      background: darken(#999, 15%);
+    }
+  }
+  
+  label {
+    font-weight: 500;
+  }
+
+}

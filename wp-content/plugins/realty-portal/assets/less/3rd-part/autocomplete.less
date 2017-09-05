@@ -1,0 +1,19 @@
+.ui-autocomplete {
+    background: #fff;
+    max-width: 270px;
+    border: 1px solid @border-color;
+    max-height: 320px;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    .ui-menu-item {
+	padding: 6px 15px;
+	cursor: pointer;
+	&:hover,
+	&.ui-state-focus {
+	    background: @brand-primary;
+	    color: #fff;
+	}
+    }
+}

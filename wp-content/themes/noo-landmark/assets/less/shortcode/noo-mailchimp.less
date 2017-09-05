@@ -1,0 +1,106 @@
+/**
+ * Style shortcode: Noo Mailchimp
+ */
+.noo-mailchimp{
+	position: relative;
+    padding: 40px 0 60px;
+    .mailchimp-notice {
+    	color: @white;
+    	margin-top: 20px;
+	    padding: 5px 10px;
+	    border: 1px solid @secondary-color;
+	    max-width: 420px;
+    	a {
+    		color: @secondary-color;
+    	}
+    }
+    .noo-title{
+    	font-size: 34px;
+    }
+	.noo-mailchimp-main{
+		position: relative;
+		max-width: 420px;
+		margin-top: 26px;
+		&:after{
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background: #fbb040;
+			height: 1px;
+			width: 30%;
+			display: inline-block;
+			.opacity(0);
+			.transition(all .4s ease 0s);
+		}
+		&:hover{
+			&:after{
+				width: 100%;
+			    opacity: 1;
+			    filter: alpha(opacity=100);
+			}
+			i{
+				color: @secondary-color;
+			}
+		}
+		input{
+			background: transparent;
+			border: none;
+			outline: none;
+			.placeholder(@white);
+			&:focus,
+			&:hover {
+				outline: none;
+	            .placeholder(lighten(@text-color, 30%));
+			}
+			&[type="email"]{
+				width: 100%;
+				padding: 7px 0;
+    			border-bottom: 1px solid @white;
+    			color: @white;
+			}
+			&[type="submit"]{
+				position: absolute;
+				top: 0;
+				right: 0;
+				display: inline-block;
+				text-indent: -200px;
+				z-index: 9;
+				width: 36px;
+				height: 100%;
+				line-height: 36px;
+			}
+		}
+		i{
+			position: absolute;
+			top: 0;
+			right: 10px;
+			line-height: 36px;
+			font-size: 16px;
+			color: @white;
+		}
+	}
+	.after_submmit {
+		.mc4wp-form-fields {
+			display: none;
+		}
+	}
+	img{
+		position: absolute;
+		right: 0;
+		top: -48px;
+	}
+	.mc4wp-response {
+		max-width: 420px;
+		padding: 5px 0;
+		* {
+			color: @secondary-color;
+		}
+	}
+	/** RESPONSIVE  */
+	@media (max-width: @screen-md-max) {
+		img {
+			display: none;
+		}
+	}
+}

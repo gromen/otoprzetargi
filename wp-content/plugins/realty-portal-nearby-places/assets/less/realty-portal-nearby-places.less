@@ -1,0 +1,121 @@
+@border-color: #e5e5f8;
+@secondary-color: #f9a11b;
+
+.rp-property-yelp,
+.rp-property-walkscore {
+    background: #fff;
+    border: 1px solid @border-color;
+    padding: 10px 40px 25px;
+    margin: 30px 0 0 0;
+    .rp-yelp-title,
+    .rp-walkscore-title {
+	position: relative;
+	margin: 0 0 30px;
+	border-bottom: 1px solid @border-color;
+	.rp-title-box {
+	    color: #3a3f4c;
+	    font-size: 26px;
+	    text-transform: uppercase;
+	    font-weight: 500;
+	    padding: 20px 0 25px 0;
+	    margin: 0;
+	}
+    }
+    @media ( max-width: 767px ) {
+	padding: 20px 15px;
+    }
+}
+.rp-property-yelp {
+    .rp-yelp-title {
+	.yelp-logo {
+	    position: absolute;
+	    right: 0;
+	    top: 20px;
+	    font-size: 12px;
+	    img {
+		vertical-align: -6px;
+	    }
+	    @media (max-width: 480px ) {
+		font-size: 0;
+	    }
+	}
+    }
+    .yelp-cat-item {
+	.cat-title {
+	    font-weight: 600;
+	    margin-bottom: 20px;
+	    .yelp-cat-icon {
+		width: 25px;
+		display: inline-block;
+		text-align: center;
+		font-size: 12px;
+		padding: 4px;
+		background: @secondary-color;
+		color: #fff;
+	    }
+	}
+	.yelp-result-list {
+	    li {
+		list-style: none;
+		margin-bottom: 20px;
+		.yelp-cat-detail {
+		    width: 100%;
+		    clear: both;
+		    position: relative;
+		    .avatar {
+			margin-right: 10px;
+			float: left;
+			width: 75px;
+		    }
+		    .story {
+			width: ~"calc(100% - 85px)";
+			float: left;
+			h5 {
+			    margin-top: 0;
+			    font-weight: 600;
+			}
+			address {
+			    margin-bottom: 0;
+			}
+			@media ( min-width: 480px ) {
+			    .review {
+				position: absolute;
+				right: 20px;
+				top: 0;
+				text-align: center;
+				img {
+				    display: block;
+				}
+			    }
+			}
+
+		    }
+		}
+	    }
+
+	    @media (max-width: 479px) {
+		padding: 0;
+		li {
+		    .yelp-cat-detail {
+			margin-left: 0;
+			margin-right: 0;
+		    }
+		}
+	    }
+	}
+    }
+}
+
+.rp-property-walkscore {
+    .walkscore_details {
+	img {
+	    vertical-align: -2px;
+	}
+	a {
+	    color: @secondary-color;
+	    &:hover {
+		text-decoration: underline;
+	    }
+	}
+    }
+}

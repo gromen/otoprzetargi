@@ -1,0 +1,65 @@
+.ui-state-highlight {
+	display: block;
+	height: 48px;
+	width: 48px;
+}
+
+.other-variation-wrapper {
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+.other-variation {
+	width: 100%;
+	margin: 0;
+}
+.other-variation:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+.other-variation li {
+	display: inline;
+	position: relative;
+	float: left;
+	width: 48px;
+	margin: 0 2px 4px;
+}		
+.other-variation li .delete {
+	cursor: move;
+	vertical-align: middle;
+	display: table-cell;
+	width: 48px;
+	height: 48px;
+}
+.other-variation li .delete:after {
+	content: "\f335";
+    font-family: Dashicons;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 48pxpx;
+    font-size: 36px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    display: none;
+}
+.other-variation li .delete:hover:after {
+	display: block;
+}
+
+.other-variation li img {
+	height: auto;
+	float: left;
+	display: block;
+	width: 100% !important;
+}
+		
+.add_other_img {
+	display: block;
+	margin: 1em 0;
+}

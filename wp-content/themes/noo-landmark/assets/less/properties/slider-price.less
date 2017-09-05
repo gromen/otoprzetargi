@@ -1,0 +1,173 @@
+/* Interaction Cues
+----------------------------------*/
+.noo-control .ui-state-disabled {
+	cursor: default !important;
+}
+
+.noo-control .ui-slider {
+	position: relative;
+	text-align: left;
+}
+.noo-control .ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 1;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+}
+.noo-control .ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+
+/* For IE8 - See #6727 */
+.noo-control .ui-slider.ui-state-disabled .ui-slider-handle,
+.noo-control .ui-slider.ui-state-disabled .ui-slider-range {
+	filter: inherit;
+}
+
+.noo-control .ui-slider-horizontal {
+	height: 4px;
+}
+.noo-control .ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+.noo-control .ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.noo-control .ui-slider-horizontal .ui-slider-range-min {
+	left: 0 !important;
+}
+.noo-control .ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+
+/* Component containers
+----------------------------------*/
+.noo-control .ui-widget {
+	font-size: 9px;
+}
+.noo-control .ui-widget .ui-widget {
+	font-size: 10px;
+}
+
+.noo-control .ui-widget-content {
+	background: @border-color;
+}
+
+.noo-control .ui-slider.ui-widget-content .ui-widget-header {
+	background: @secondary-color !important;
+	color: #fff;
+	font-weight: bold;
+}
+
+/* Interaction states
+----------------------------------*/
+.noo-control .ui-state-default,
+.noo-control .ui-widget-content .ui-state-default,
+.noo-control .ui-widget-header .ui-state-default {
+	border: 1px solid @secondary-color;
+	background: @secondary-color;
+	font-weight: bold;
+	color: #1c94c4;
+}
+.noo-control .ui-state-default a,
+.noo-control .ui-state-default a:link,
+.noo-control .ui-state-default a:visited {
+	color: #1c94c4;
+	text-decoration: none;
+}
+.noo-control .ui-state-hover,
+.noo-control .ui-widget-content .ui-state-hover,
+.noo-control .ui-widget-header .ui-state-hover,
+.noo-control .ui-state-focus,
+.noo-control .ui-widget-content .ui-state-focus,
+.noo-control .ui-widget-header .ui-state-focus,
+.noo-control .ui-state-active,
+.noo-control .ui-widget-content .ui-state-active,
+.noo-control .ui-widget-header .ui-state-active {
+	border: 1px solid @brand-primary;
+	background: @brand-primary;
+	cursor: pointer;
+	&:focus {
+		outline: none;
+	}
+}
+.noo-control .ui-state-hover a,
+.noo-control .ui-state-hover a:hover,
+.noo-control .ui-state-hover a:link,
+.noo-control .ui-state-hover a:visited,
+.noo-control .ui-state-focus a,
+.noo-control .ui-state-focus a:hover,
+.noo-control .ui-state-focus a:link,
+.noo-control .ui-state-focus a:visited {
+	color: #c77405;
+	text-decoration: none;
+}
+
+.noo-control .ui-state-active a,
+.noo-control .ui-state-active a:link,
+.noo-control .ui-state-active a:visited {
+	color: #eb8f00;
+	text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.noo-control .ui-state-highlight,
+.noo-control .ui-widget-content .ui-state-highlight,
+.noo-control .ui-widget-header .ui-state-highlight {
+	border: 1px solid #fed22f;
+	background: #ffe45c url("images/ui-bg_highlight-soft_75_ffe45c_1x100.png") 50% top repeat-x;
+	color: #363636;
+}
+.noo-control .ui-state-highlight a,
+.noo-control .ui-widget-content .ui-state-highlight a,
+.noo-control .ui-widget-header .ui-state-highlight a {
+	color: #363636;
+}
+.noo-control .ui-state-error,
+.noo-control .ui-widget-content .ui-state-error,
+.noo-control .ui-widget-header .ui-state-error {
+	border: 1px solid #cd0a0a;
+	background: #b81900 url("images/ui-bg_diagonals-thick_18_b81900_40x40.png") 50% 50% repeat;
+	color: #fff;
+}
+.noo-control .ui-state-error a,
+.noo-control .ui-widget-content .ui-state-error a,
+.noo-control .ui-widget-header .ui-state-error a {
+	color: #fff;
+}
+.noo-control .ui-state-error-text,
+.noo-control .ui-widget-content .ui-state-error-text,
+.noo-control .ui-widget-header .ui-state-error-text {
+	color: #fff;
+}
+.noo-control .ui-priority-primary,
+.noo-control .ui-widget-content .ui-priority-primary,
+.noo-control .ui-widget-header .ui-priority-primary {
+	font-weight: bold;
+}
+.noo-control .ui-priority-secondary,
+.noo-control .ui-widget-content .ui-priority-secondary,
+.noo-control .ui-widget-header .ui-priority-secondary {
+	opacity: .7;
+	filter:Alpha(Opacity=70);
+	font-weight: normal;
+}
+.noo-control .ui-state-disabled,
+.noo-control .ui-widget-content .ui-state-disabled,
+.noo-control .ui-widget-header .ui-state-disabled {
+	opacity: .35;
+	filter:Alpha(Opacity=35);
+	background-image: none;
+}
+.noo-control .ui-state-disabled .ui-icon {
+	filter:Alpha(Opacity=35); /* For IE8 - See #6059 */
+}

@@ -1,0 +1,139 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Realty Portal: Floor Plan\n"
+"POT-Creation-Date: 2017-08-17 09:37+0700\n"
+"PO-Revision-Date: 2017-05-05 14:33+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: realty-portal-floor-plan.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: fields/floor_plans/floor_plans.php:43 realty-portal-floor-plan.php:233
+msgid "Plan Title"
+msgstr ""
+
+#: fields/floor_plans/floor_plans.php:51 realty-portal-floor-plan.php:241
+msgid "Plan Bedrooms"
+msgstr ""
+
+#: fields/floor_plans/floor_plans.php:57 realty-portal-floor-plan.php:248
+msgid "Plan Bathrooms"
+msgstr ""
+
+#: fields/floor_plans/floor_plans.php:67 realty-portal-floor-plan.php:255
+msgid "Plan Price"
+msgstr ""
+
+#: fields/floor_plans/floor_plans.php:73 realty-portal-floor-plan.php:262
+msgid "Plan Size"
+msgstr ""
+
+#: fields/floor_plans/floor_plans.php:81 realty-portal-floor-plan.php:269
+msgid "Plan Description"
+msgstr ""
+
+#: fields/floor_plans/floor_plans.php:91 realty-portal-floor-plan.php:275
+msgid "Plan Images"
+msgstr ""
+
+#: fields/floor_plans/floor_plans.php:93
+msgid "Upload photo"
+msgstr ""
+
+#: fields/floor_plans/floor_plans.php:107 realty-portal-floor-plan.php:310
+msgid "Add More"
+msgstr ""
+
+#: fields/floor_plans/floor_plans.php:114
+msgid "Floor Plans"
+msgstr ""
+
+#: includes/class-floor-plan-process.php:31
+msgid "Security Breach! Please contact admin!"
+msgstr ""
+
+#: includes/class-floor-plan-process.php:52
+msgid "Not empty index floor plan, please check again!"
+msgstr ""
+
+#: realty-portal-floor-plan-functions.php:54
+#, php-format
+msgid "<strong>Size:</strong> %s"
+msgstr ""
+
+#: realty-portal-floor-plan-functions.php:58
+#, php-format
+msgid "<strong>Rooms:</strong> %s"
+msgstr ""
+
+#: realty-portal-floor-plan-functions.php:62
+#, php-format
+msgid "<strong>Baths:</strong> %s"
+msgstr ""
+
+#: realty-portal-floor-plan-functions.php:66
+#, php-format
+msgid "<strong>Price:</strong> %s"
+msgstr ""
+
+#: realty-portal-floor-plan-functions.php:73
+#, php-format
+msgid "<p class=\"floor-plan-description\">%s</p>"
+msgstr ""
+
+#: realty-portal-floor-plan.php:88
+msgid ""
+"The <strong>Realty Portal: Floor Plan</strong> only works after <strong>Realty "
+"Portal: Realty Portal</strong> is activated, please activate it"
+msgstr ""
+
+#: realty-portal-floor-plan.php:188 templates/floor-plan.php:25
+#: templates/floor-plan.php:62
+msgid "Floor Plan"
+msgstr ""
+
+#: realty-portal-floor-plan.php:288
+msgid "Edit Gallery"
+msgstr ""
+
+#: realty-portal-floor-plan.php:288
+msgid "Add Images"
+msgstr ""
+
+#: realty-portal-floor-plan.php:290
+msgid "Clear Gallery"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Realty Portal: Floor Plan"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://nootheme.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An add-on to display detailed information of properties. Easy to add as many "
+"plans as you want. Work with any theme!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NooTeam"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://nootheme.com/"
+msgstr ""

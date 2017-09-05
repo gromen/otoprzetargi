@@ -1,0 +1,65 @@
+/**
+ * Style shortcode: Noo Ads Banner
+ */
+.noo-ads-banner {
+	padding: 45px 0 35px;
+	.noo-content {
+		color: #fff;
+		font-size: 20px;
+		line-height: 28px;
+		font-weight: 400;
+	}
+	.noo-action {
+		a {
+			display: inline-block;
+			background: @secondary-color;
+			font-family: @font-heading;
+			text-transform: uppercase;
+			font-weight: 600;
+			font-size: 16px;
+			color: #fff;
+			padding: 15px 30px;
+			position: relative;
+			overflow: hidden;
+			.transition;
+			> span {
+			    position: relative;
+			    backface-visibility: hidden;
+			    z-index: 1;
+			}
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				background: darken(@secondary-color, 10%);
+				.opacity(0);
+				.translate(100%, 0);
+				.transition(all 0.3s cubic-bezier(0.2, 0, 1, 1));
+			}
+			&:hover {
+				&:before {
+					.opacity(1);
+					.translate(0, 0);
+				}
+			}
+		}
+	}
+	@media (max-width: 767px) {
+		text-align: center;
+		.noo-image {
+			margin-bottom: 30px;
+			text-align: center !important;
+		}
+		.noo-content {
+		    margin-bottom: 25px;
+		    font-size: 16px;
+		}
+		.noo-action {
+			text-align: center !important;
+
+		}
+	}
+}
